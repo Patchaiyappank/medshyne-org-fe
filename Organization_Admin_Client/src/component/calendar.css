@@ -1,0 +1,49 @@
+.txt{
+  font-Size:10px; 
+  font-weight: "400";
+  width: 190px;
+  height: 30px;
+  color: black;
+  padding-left:25px ;
+  border: 1px solid #9095A0;
+  border-Radius:5px;
+  margin-right:'-30px';
+  cursor: pointer;
+}
+
+.txt::placeholder {
+  color: black;
+}
+.custom-calendar-container {
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-left: -30px;
+  margin-top: 5px;
+}
+
+.custom-calendar-container::before {
+  content: "";
+  position: absolute;
+  top: px; /* Adjust based on your layout */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent; /* Arrow pointing down */
+  /* Adjust the color to match the background */
+}
+
+.custom-calendar-container .react-datepicker__navigation {
+  margin-top: 15px; /* Adjust as needed */
+}
+
+.custom-calendar-container .react-datepicker__navigation--previous {
+  margin-top: 15px; /* Adjust as needed */
+}
+
+.custom-calendar-container .react-datepicker__navigation--next {
+  margin-top: 15px; /* Adjust as needed */
+}

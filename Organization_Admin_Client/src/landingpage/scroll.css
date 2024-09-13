@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+
+.nav-clickbar {
+  width: 100% !important;
+}
+
+.nav-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px 10px 40px;
+  width: 100%;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0; /* Stick to the top */
+  background-color: white; /* Ensure the background color is set for better visibility */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navli {
+  width: 150px;
+  height: 50px;
+}
+
+.navlist {
+  display: flex;
+  padding-top: 20px;
+}
+
+.navlist ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navlist li {
+  margin-left: 30px;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: #898989;
+  cursor: pointer;
+}
+
+.navlist li.active a {
+  color: #0089ff; /* Highlight color for active section */
+  font-weight: bold;
+}
+
+.nav-navigation button {
+  background-color: transparent;
+  border: none;
+  color: #898989;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.navli6 {
+  background-color: #0089ff !important;
+  color: white !important;
+  width: 90px;
+  min-height: 35px;
+  margin-top: -5px;
+  border-radius: 5px;
+}
+
+.navlii {
+  border-left: 1px solid #486284; /* Grey color */
+  height: 20px; /* Adjust height to match menu items */
+  margin-left: 80px !important;
+  display: inline-block;
+  align-self: center;
+}
+
+.navli5 {
+  position: relative;
+  background: none;
+  border: none;
+  padding: 5px 15px;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: -5px;
+  margin-left: -20px;
+}
+
+.navli5:hover {
+  background-color: #0089FF; /* Change this to your desired background color */
+  color: white; /* Change this to your desired text color */
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+/* 
+.navli5::after {
+  content: "";
+  display: block;
+  height: 2px; 
+  width: 100%;
+  background: gray; 
+  position: absolute;
+  bottom: -2px; 
+  left: 0;
+  right: 0;
+} */
+
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575px) {
+  .nav-navigation {
+    display: block;
+    width: 100%;
+  }
+  .navlist li {
+    margin-left: 10px;
+    font-size: 8px;
+  }
+
+  .navlist li:first-child a {
+    font-size: 8px;
+  }
+
+  .nav-navigation button {
+    font-size: 8px;
+    cursor: pointer;
+  }
+  .navli {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    align-content: center;
+    margin-left: 180px;
+    margin-bottom: 10px;
+  }
+
+  .navlist {
+    display: block !important;
+  }
+  
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navlist li {
+    margin-left: 15px;
+    font-size: 9px;
+  }
+
+  .navlist li:first-child a {
+    font-size: 9px;
+  }
+
+  .nav-navigation button {
+    font-size: 9px;
+    cursor: pointer;
+  }
+  .navli {
+    width: 150px;
+    height: 50px;
+  }
+
+  .nav-navigation {
+    padding: 10px 15px;
+    
+  }
+
+  .navli {
+    width: 140px;
+    height: 50px;
+    align-content: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 850px) {
+  .navlist li {
+    margin-left: 15px;
+    font-size: 10px;
+  }
+
+  .navlist li:first-child a {
+    font-size: 10px;
+  }
+
+  .nav-navigation button {
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .navli {
+    width: 150px;
+    height: 70px;
+  }
+
+  .nav-navigation {
+    padding: 10px 15px;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 850px) and (max-width: 1060px) {
+  .navlist li {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .navlist li:first-child a {
+    font-size: 14px;
+  }
+
+  .nav-navigation button {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .navli {
+    width: 150px;
+    height: 70px;
+  }
+
+  .nav-navigation {
+    padding: 10px 20px;
+  }
+}

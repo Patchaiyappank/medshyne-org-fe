@@ -1,0 +1,128 @@
+.otpforgetscreen-main-container {
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 90px;
+  padding-top: 120px;
+    background-color: #FFFFFF;
+    overflow: fixed;
+  }
+  .otpforgetscreen-container
+  {
+    background-color: #FFFFFF !important;
+    height: 100%;
+  }
+
+  .otpverify-input {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 5px;
+    font-weight: bolder;
+    border: 2px solid #ccc;
+   
+    border: 1px solid #ECECEC !important;
+    border-radius: 5px;
+    box-shadow: 0 7px 8px rgba(100, 100, 100, 0.2); /* Shadow at bottom */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .otpverify-input:focus{
+    border: 1px solid #ECECEC !important;
+    outline: none !important;
+  }
+
+  .otpverify-input.error {
+    border: 1px solid #FF0000;
+    background-color: #FFD5D5;
+    color: black;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+  }
+
+  .otpforgetscreen-resend-button
+  {
+    font-size: 16px;
+    color:#0089FF;
+    padding-left: 5px;
+  }
+  
+
+  
+  .otpforgetscreen-back-button {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    background-color: transparent !important;
+    color: #0089FF !important;
+    font-size: 17px;
+    border-radius: 10px;
+  
+    border: 2px solid #0089FF;
+    padding: 5px 10px;
+    width: 7.5%;
+    height:40px;
+  }
+  .otpforgetscreen-back-button:hover
+  {
+    cursor: pointer;
+    opacity:60%;
+  }
+  
+  .otpforgetscreen-image-container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .otpforgetscreen-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ 
+  .otpforgetscreen-verification-message.success {
+    color: green;
+  }
+  
+  .otpforgetscreen-input {
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 5px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    }
+
+    .otpforgetscreen-error-background
+  {
+    background-color: rgb(236, 178, 178) !important;
+    border: none !important;
+    outline: none !important;
+  }
+  
+  
+.otpforgetscreen-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  } 
+  
+
+  
+  /* Media Queries for Responsiveness */
+  
+  @media screen and (max-width: 767px) {
+    .otpforgetscreen-back-button
+    {
+      width: 70px;
+      height: auto;
+    }
+    .otpforgetscreen-image-container
+    {
+      margin-top: 50px;
+    }
+    .otpforgetscreen-main-container
+    {
+      height: 100%;
+    }
+  }

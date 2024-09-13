@@ -1,0 +1,414 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.register-org-phone:focus, .register-org-phone .form-control:focus {
+
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+
+/* Webkit Browsers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 12px;
+}
+.signup-orgtype-container
+{
+  margin-left:21%;
+}
+.register-orgtype-field-1
+{
+  width:100%;
+  height: 35px;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  font-size: 13px !important;
+  color:rgb(65, 64, 64);
+  padding: 8px;
+}
+
+.register-orgname-field
+{
+  width: 155%;
+  border-radius: 9px;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 13px !important;
+  color:rgb(65, 64, 64);
+  padding: 7px;
+
+}
+.register-orgtype-field
+{
+  width: 99%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 13px !important;
+  color:rgb(65, 64, 64);
+  padding: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #BCBCBC;
+  box-shadow: inset 0 0 5px #BCBCBC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0089FF;
+  border-radius: 14px;
+  height: 10px;
+  border: 3px solid #0089FF;
+}
+
+div.selected-flag
+{
+  background-color: white;
+  outline: none;
+}
+span.country-name{
+  color:black;
+}
+
+.register-org-phone .form-control
+{
+  border: none !important;
+  border-radius: 9px !important;
+}
+
+.w-md-100{
+  width: 100%;
+}
+.w-md-50{
+  width: 50%;
+  padding: 5px;
+}
+.d-md-flex{
+  display: flex;
+}
+.pos-relative{
+  position: relative;
+}
+.pos-absolute{
+  position: absolute;
+}
+.register-main-container{
+  width:100%;
+  display: flex;
+  height: 100vh;
+}
+.register-left-container{
+  width:50%;
+}
+.register-rightmain-container{
+  width: 50%;
+}
+
+.register-label-field{
+  font-size: 13px;
+  font-weight: normal;
+  color: rgb(2, 2, 2);
+  margin-bottom: 10px;
+}
+
+.signup-label-field{
+  font-size: 13px;
+  margin-left: 1%;
+  font-weight: normal;
+  color: rgb(2, 2, 2);
+  margin-bottom: 10px;
+}
+.register-input-field
+{
+
+  width: 100%;
+  border-radius: 9px;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 13px !important;
+  color:rgb(65, 64, 64);
+  padding: 7px;
+}
+.signup-input-field
+{
+margin-left: 1%;
+  width: 98%;
+  height: 35px;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  font-size: 13px !important;
+  color:rgb(65, 64, 64);
+  padding: 7px;
+}
+
+.register-input-field-others
+{
+  margin: 2% 0% 0% 1%;
+  width: 99%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 13px !important;
+  color:rgb(65, 64, 64);
+  padding: 7px;
+}
+.register-org-phone .form-control{
+  width: 100% !important;
+}
+
+.signup-error-message
+{
+font-size: 12px;
+}
+.reg-dummycls 
+{
+  width: 100%;
+  height: 35px;
+  margin-right: 20px;
+  background-color: white;
+  padding-left: 9px;
+  border-radius: 9px;
+  font-size: 15px;
+  color: rgb(65, 64, 64);
+}
+
+.register-org-phone:focus, .register-org-phone .form-control:focus {
+
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.reg-mobilephone {
+  height: 35px;
+  border-radius: 9px;
+  border: none;
+
+}
+
+div.arrow
+{
+  margin: 5px;
+}
+
+.register-left-image
+{
+  width: 100%;
+  height: 100%;
+}
+.register-right-container
+{
+  background-color: #C9E6FF;
+ width: 100%;
+ padding: 10px 40px 40px 40px;
+}
+
+.register-rightsubmain-container
+{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  border: none !important;
+  outline: none !important;
+}
+
+.register-text{
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  margin: -6px 0px -6px 0px;
+}
+.register-upload-icon
+{
+z-index: 1000 !important;
+margin-top: -4px;
+
+}
+
+.register-image-upload
+{
+  background-color: white;
+  z-index: 1000;
+  margin-top: -14px;
+  border-radius: 8px;
+  padding: 5.5px;
+  width: 100% !important;
+  display: flex;
+  position: sticky;
+}
+
+.register-upload-error
+{
+  color:red;
+  font-size: 12px;
+margin-top: -20px;
+
+}
+.register-image-upload-success
+{
+  background-color: white;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 3px;
+  width: 265px !important;
+  height:35px;
+  display: flex;
+
+}
+.register-upload-image
+{
+  
+  width: 20px;
+  height: 20px;
+margin-top: 5px;
+margin-left: 8px;
+
+}
+
+.register-upload-success
+{
+  margin-left: 9px;
+  font-size: 13px;
+  margin-top: 2px;
+  color: #697077;
+  position: sticky;
+}
+
+
+.register-hide-button
+{
+  margin-left: auto;
+  display: flex;
+  height: 20px;
+  margin-top:50px;
+}
+
+.register-hide-button:hover{
+  cursor: pointer;
+}
+
+.register-signup-uploadicon-container
+{
+  background-color: white;
+  padding: 8px; 
+  border-radius: 8px;
+  display: flex;  
+}
+.register-imagelink-button
+{
+  right: 11px;
+    width: 20px;
+    height: 20px;
+    margin-top: -1px;
+
+}
+.register-imagelink-button:hover{
+  cursor: pointer;
+}
+.register-placeholder-text
+{
+font-size: 13px;
+color:grey;
+
+
+}
+.react-tel-input .flag-dropdown
+{
+  border-right: none !important;
+  border: none !important;
+}
+.file-22
+{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 13px !important;
+  color:rgb(65, 64, 64);
+  padding: 8px !important;
+}
+
+.register-next-button
+{
+  background-color: #0089FF;
+  color: white;
+  border-radius: 5px;
+  border: none !important;
+  outline: none !important;
+  height: 40px;
+}
+.register-contact-field
+{
+  margin-top: -50px;
+}
+@media screen and (max-width: 1020px) {
+  .register-left-container{
+    display: block;
+    width: 40%;
+  }
+  .register-rightmain-container{
+    width: 60%;
+  }
+}
+
+
+/* On screens that are 768px or less, set the css*/
+@media screen and (max-width: 850px) {
+  .register-left-container{
+    display: none;
+  }
+  .register-rightmain-container{
+    width: 100%;
+  }
+  .w-sm-100{
+    width: 100% !important;
+  }
+  .d-sm-block{
+    display: block !important;
+  }
+  .register-orgname-field
+{
+  width: 100%;
+}
+.register-orgtype-field
+{
+  width: 100%;
+}
+.signup-orgtype-container
+{
+  margin-left: 0px !important;
+}
+.register-input-field
+{
+  width: 100%;
+}
+}
+
+
+
+
+
+.colorchange{
+ 
+  outline: none; /* Remove default focus outline */
+}
+
+.colorchange:focus {                                                                          
+
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1); ; 
+}

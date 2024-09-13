@@ -1,0 +1,209 @@
+.forgetpassword-image-box
+{
+  width: 100%;
+  margin-top: 60px;
+  height: 400px;
+
+}
+.forgetpassword-medshyne-logo
+{
+  width: 180px !important;
+  height: 70px !important;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.forgetpassword-main-container {
+  display: flex;
+  width: 100%; 
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 115px;
+}
+
+
+.forgetpassword-left-container
+{
+margin-top: 60px;
+margin-left: -170px !important;
+width: 50%;
+margin-right: 30px;
+
+}
+.signupnext
+{
+  color: white !important;
+}
+
+.signupnext:hover
+{
+  color:white !important;
+  text-decoration: none;
+}
+
+.forgetpassword-right-container {
+
+  margin-top: 180px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  height: 270px;
+  width: 45%;
+  margin-right: 40px;
+  border: 1px solid #C0C0C0;
+  background-color: white !important;
+  box-shadow: 0 0 20px 0 rgba(116, 115, 115, 0.2);
+}
+
+.forgetpassword-para {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+
+
+.forgetpassword-input-field {
+  width: 100%;
+  height: 35px;
+  padding-left: 20px;
+  border-radius: 9px;
+  border: none !important;
+  outline: none !important;
+  background-color: white !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.37);
+  font-size: 15px;
+  color: rgb(65, 64, 64);
+}
+
+.newerror-msg {
+  color:red;
+  font-size: 15px;
+}
+
+.forgetpassword-send-button {
+  width:50%;
+  height:30px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  background-color: #0089FF;
+  font-size: 15px;
+  margin-left: 20px;
+  text-decoration: none;
+  color:white;
+  font-weight: medium;
+}
+
+.forgetpassword-cancel-button {
+  width:50%;
+  height:30px;
+  border-radius: 5px;
+  border: 1px solid  #0089FF;
+  margin-top: 30px;
+  background-color: white;
+  font-size: 15px;
+margin-left: 50%;
+  text-decoration: none;
+  font-weight: medium;
+}
+
+.forgetpassword-cancel-link{
+  color: #0089FF;
+}
+
+.forgetpassword-send-button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.forgetpassword-cancel-button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.forgetpassword-cancel-link:hover{
+  color: #0089FF;
+  text-decoration: none;
+}
+/* Responsive adjustments */
+
+@media screen and (min-width:641px)  and (max-width: 880px) {
+  .forgetpassword-cancel-button {
+
+  margin-left: 20%;
+margin-top: 10px;
+  }
+
+  .forgetpassword-send-button {
+
+  margin-top: 10px;
+    }
+    .forgetpassword-main-container {
+      height: 100%;
+    }
+}
+
+@media screen and (min-width:404px) and (max-width: 642px) {
+  .forgetpassword-main-container {
+    display: block;
+  }
+ .forgetpassword-left-container
+  {
+display: none;
+    
+  }
+  .forgetpassword-right-container {
+
+
+    width: 93%;
+      margin-top: 10% !important;
+    margin-left: 20px;
+    margin-right: 20px !important;
+ 
+  
+  }
+  .forgetpassword-main-container {
+    height: 100%;
+  }
+}
+
+@media screen and  (max-width: 405px) {
+  .forgetpassword-cancel-button {
+
+    margin-left: 10%;
+  }
+
+
+  .forgetpassword-main-container {
+    display: block;
+  }
+ .forgetpassword-left-container
+  {
+display: none;
+    
+  }
+  .forgetpassword-right-container {
+
+    width: 90%;
+    margin-top: 10% !important;
+    margin-left: 20px;
+    margin-right: 20px !important;
+  }
+ 
+  .forgetpassword-heading
+  {
+    font-size: 20px;
+  }
+
+  .forgetpassword-main-container {
+    height: 100%;
+  }
+}
+
+
+@media screen and (min-width:850px) and (max-width: 1300px) {
+  .forgetpassword-main-container {
+    height: 100%;
+  }
+}

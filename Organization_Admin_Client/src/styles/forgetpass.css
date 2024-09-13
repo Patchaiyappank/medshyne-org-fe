@@ -1,0 +1,177 @@
+* {
+
+  margin: 0px;
+  padding: 0px;
+}
+.reset-password-page
+{
+  display: flex;
+}
+.resetpassword-submain-container
+{
+  width: 100%;
+  display: flex;
+}
+.resetpassword-image-box
+{
+width: 100%;
+
+
+}
+.resetpassword-main-container {
+
+  width: 100%; 
+  background-color: #FFFFFF;
+  height: 100%;
+  padding-bottom: 60px;
+}
+.resetpassword-medshyne-logo
+{
+  width: 180px !important;
+  height: 70px !important;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.resetpassword-left-container
+{
+width: 50%;
+margin-top: 50px;
+margin-left: 5%;
+
+}
+.resetpassword-right-container
+{
+width: 580px;
+padding: 0% 55px 0px 0px;
+margin-left: 4%;
+margin-top: 20px;
+}
+
+
+.resetpassword-container {
+background-color: white;
+  padding: 10% 5% 10% 5%;
+  border-radius: 15px;
+  border: 1px solid #C0C0C0;
+  box-shadow: 0 0 20px 0 rgba(116, 115, 115, 0.2);
+}
+.resetpassword-error
+{
+  font-size: 10px;
+}
+
+.resetpassword-heading {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.resetpassword-para {
+margin-top: -5px;
+  font-size: 15px;
+}
+
+.resetpassword-label {
+  font-size: 13px;
+  font-weight:400;
+  color:rgb(8, 8, 8);
+}
+.resetpassword-confirm-password
+{
+  font-size: 13px;
+  font-weight: 400;
+  color:rgb(8, 8, 8);
+  margin-top: 20px !important;
+}
+
+.resetpassword-input-field {
+  width: 100%;
+  height: 35px;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  padding-left: 9px;
+  margin-right: 20px;
+  border: 1px solid #f0eded;
+  background-color: white !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.37);
+  font-size: 15px;
+  color: rgb(65, 64, 64);
+}
+
+
+.resetpassword-eye {
+  width: 19px;
+  height: 12px;
+  margin-left: 10px;
+}
+
+.resetpassword-eye-hide {
+  width: 20px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.resetpassword-hide-box
+{
+
+  text-align: right;
+  margin-right: 10px;
+margin-top: -30px;
+}
+.resetpassword-eye-block:hover{
+  cursor: pointer;
+}
+
+.forgetpassconfirm
+{
+
+  margin-top: 5px;
+  
+}
+
+
+.newerror-msg {
+  color:red;
+  font-size: 15px;
+}
+
+.resetpassword-reset {
+  width: 100%;
+  height:35px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  background-color: #0089FF;
+  font-size: 15px;
+  text-decoration: none;
+  color:white;
+  font-weight: 400;
+}
+
+.resetpassword-reset:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+/* Responsive adjustments */
+
+
+@media screen and (min-width: 168px) and (max-width:800px) {
+  .resetpassword-submain-container
+{
+  width: 100%;
+  display: block;
+}
+.resetpassword-left-container
+{
+  display: none;
+}
+.resetpassword-right-container
+{
+  width: 80%;
+margin: 30px 30px 10px 30px;
+  padding-top: 0% !important;
+padding-left: 15px;
+padding-right: 25px;
+
+}
+}

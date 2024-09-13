@@ -1,0 +1,320 @@
+.iStudent-pic {
+  width: 65%;
+  height: 160px;
+  border-radius: 100%;
+  gap: 10px;
+  margin-left: 17%;
+ margin-top: 10px;
+}
+.no-bottom-border {
+  border-bottom: none !important;
+}
+.iprofile-container{
+  padding: 1rem;
+}
+
+.icontainer-table {
+ height: 276px;
+  max-height: 276px; /* Set your desired max height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+.icontainer-table::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* Optional: To make the header sticky */
+.itable-header {
+  position: sticky;
+  top: 0;
+
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .icard-title {
+    margin-left: 0 !important;
+    text-align: center !important;
+  }
+  .icard-text {
+    margin-left: 0 !important;
+    text-align: center !important;
+  }
+}
+.istaff-popup1-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.istaff-popup1-container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+}
+
+.istaff-deleteappoint1
+{
+font-weight: bolder;
+font-size: 25px;
+}
+.istaff-close-button1
+{
+margin-left: 175px;
+margin-top: 10px;
+font-weight: bold;
+}
+
+
+.istaff-popuppara1
+{
+margin-top: -10px;
+}
+
+.istaff-popup1-buttons {
+display: flex;
+justify-content: space-between;
+}
+
+.istaff-popup1-buttons button {
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+
+.istaff-cancel1 {
+background-color: white;
+color: #0F62FE;
+height: 40px;
+font-weight: 600;
+margin-right: 20px;
+width: 120px;
+border: 2px solid #0F62FE !important;
+}
+.istaff-delete1 {
+background-color: red;
+color: white;
+font-weight: 600;
+width: 120px;
+height: 40px;
+}
+.itable{
+  margin-top: 10px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.border-right {
+  border-right: 1px solid #dee2e6 !important;
+  min-height: fit-content;
+}
+.full-height {
+  max-height: max-content;
+}
+/* 
+.staff-head-title
+{
+  font-weight: bold;
+  margin-left: 25px;
+  width: 200px;
+}
+#viewstaf
+{
+  width: 400px !important;
+}
+.staff-main-container
+{
+
+  width: auto;
+  height: 800px !important;
+
+}
+.container-table::-webkit-scrollbar {
+  display: none;
+}
+.staff-sub-container
+{
+  display: flex;
+}
+.table-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+
+}
+.container{
+margin-left: 57px !important;
+padding-left: 60px;
+padding-right: 20px !important;
+margin-right: 10px !important;
+
+margin-top: 50px;
+width: 200% !important;
+
+}
+
+.row-space-container
+{
+  margin-right: -99px;
+}
+
+.image-container {
+  position: relative;
+  width: 350px; 
+  height: 200px; 
+  border-radius: 1px;
+  overflow: hidden; 
+}
+
+.Med-image {
+  width: 100%; 
+  height: 100%; 
+}
+
+.overlay {
+  position: absolute;
+  top: 97px;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 1px; 
+}
+
+
+.download-icon {
+  color: white; 
+  font-size: 18px; 
+} */
+
+.view-container
+{
+  display: flex;
+  margin-top: 85px;
+
+}
+/* .Details {
+  display: grid;
+  background-color: white;
+  border-radius: 14px;
+  width: 100%;
+  height: 477px;
+  top: 179px;
+  left: 563px;
+}
+
+.border-right {
+  border-right: 1px solid #ccc;
+  padding-left: 10px;
+  padding :10px 10px 10px 10px;
+}
+
+
+.footer {
+  display: grid;
+}
+
+.footer .col-sm-3 {
+  padding: 20px;
+  box-sizing: border-box; 
+}
+.footer-sec {
+  border-style: solid;
+}
+
+
+
+.arrow {
+  width: 14px; 
+  height: 12px; 
+  margin-right: 8px;  
+}
+.whole
+{
+  padding-left:30px;
+}
+
+
+
+.profiledetails-container
+{
+  height: 375px;
+}
+
+.profile
+{
+  height: 375px;
+} */
+.itable-row-bottom
+{
+  border-bottom: none !important;
+}
+
+.iresponsive-button {
+  font-size: 0.1rem; 
+  width: 120px;/* Default font size */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 998px) {
+  .iresponsive-button {
+    font-size: 0.7rem; 
+    width: 120px;/* Slightly smaller font size */
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .iresponsive-button {
+    font-size: 0.6rem; /* Even smaller font size */
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 400px) {
+  .iresponsive-button {
+    font-size: 0.525rem; /* Smallest font size */
+  }
+}
+
+
+
+@media (max-width: 968px) {
+  .card-title,
+  .card-text {
+    margin-left: 0 !important;
+    text-align: center !important;
+  }
+  
+  .iresponsive-button{
+    font-size: 0.5rem;
+    padding: 0.3rem 0.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .iresponsive-button {
+    font-size: 0.4rem;
+    padding: 0.2rem 0.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .iresponsive-button {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.6rem;
+  }
+}
