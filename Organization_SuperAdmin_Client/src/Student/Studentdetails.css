@@ -1,0 +1,15 @@
+.staffdetailsimagee {
+  position: relative;
+  text-align: center; /* Optional: to center the image and button */
+}
+
+.upload-buttonstudetails{
+  position: absolute;
+  bottom:-12px ; /* Adjust the value to move the button higher or lower */
+  left: 35%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  width: auto;
+  padding: 8px 30px;
+  border-radius: 20px;/* Make sure the button size fits the content */
+}

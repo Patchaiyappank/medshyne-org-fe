@@ -1,0 +1,97 @@
+.logintotal {
+  background: url('./logindesign.png') ;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding-bottom: 0%;
+    width: 100%; 
+    height: 100%;
+ }
+ .login-card-container
+ {
+  justify-content: end !important;
+ }
+ .cardsizelogin {
+  background: rgba(255, 255, 255, 0.3); 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 102%;
+  display: flex; 
+ 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  padding: 20px;
+  height: 110vh; 
+}
+.login-padding-box
+{
+  padding-right: 0px !important;
+
+}
+
+.form-controlemail {
+  background: rgba(255, 255, 255, 0.8); 
+  width: 200%; 
+  max-width: 400px; 
+ padding: 12px;
+ }
+ 
+ .form-control:focus {
+  border-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none !important;
+  outline: none !important;
+}
+
+ .loginbutton {
+  background-color: #007bff;
+  border-color: #007bff;
+  width: 200%; 
+  max-width: 400px;
+  padding: 12px;
+  border-radius: 30px; 
+ }
+ 
+ .loginbutton:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+ }
+ .custom-input-container {
+  position: relative;
+  width: 100%;
+ }
+ 
+ 
+ .custom-placeholder {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #6c757d;
+ }
+ 
+ .example-placeholder {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #6c757d;
+ }
+ .position-relativelogin {
+  position: relative;
+}
+
+.password-toggle-iconlogin {
+  position: absolute;
+  top: 50%;
+  right: 10%; /* Adjust the position of the eye icon */
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #6c757d;
+  /* Optional: change the icon color */
+}

@@ -1,0 +1,46 @@
+.settingbtn{
+    font-size: 12px;
+    background-color: transparent;
+    margin-top: 0%;
+}
+.settings-container {
+    background-color: #F5F5F5;
+    margin-top: 0%;
+  }
+
+  .Setting-container{
+    padding-left: 206px;
+    width: 99%;
+    height: 100vh;
+  }
+  .settings-header {
+    background-color: whitesmoke;
+  }
+  
+  .settings-title {
+    font-weight: bolder;
+    margin-top: 0%;
+    font-size: 10px;
+  }
+  
+ .settingdetails{
+  /* background-color: antiquewhite; */
+  margin-top: -1%;
+ }
+  
+  .settings-buttons {
+    margin: 0 auto;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .settings-title {
+      font-size: 14px; /* Smaller font size for smaller screens */
+    }
+    
+    .settings-divider {
+      font-size: 8px;
+    }
+  }
+  

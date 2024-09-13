@@ -1,0 +1,408 @@
+.organizationlist-organization-name {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+.recovery-organizationList-action-icon
+{
+  width: 25px;
+  height: 25px;
+  
+}
+/* Main card styling */
+
+.organizationlist-main-card {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: auto;
+  margin-top: .5%;
+  
+}
+
+.organizationlist-sub-card {
+  background-color: #FFFFFF;
+  color: #464E5F;
+  max-width: 100% !important;
+  border: none;
+  margin-top: -1%;
+  height: auto;
+}
+.Recoveryorgan-card-body
+{
+
+    flex: 1 1 auto;
+    padding-top: 10px;
+    color: var(--bs-card-color);
+    
+    
+  
+
+  }
+.organizationList-action-button{
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  box-shadow: none;
+}
+/* Table styling */
+/* .organizationlist-table-container{
+  max-height: 280px;
+  overflow-y: auto;
+ 
+} */
+.organizationlist-table-container::-webkit-scrollbar
+{
+  display: none;
+}
+
+.organizationlist-table {
+  max-width: 100% !important;
+  border-collapse: collapse;
+
+}
+.organizationlist-table-head{
+  position: sticky !important;
+  top: 0;
+  z-index: 1000 !important;
+}
+
+.organizationlist-td {
+  text-align: left;
+  padding: 0.5rem;
+  border: none;
+}
+
+/* .organizationlist-th {
+  background-color: #8e8d8d20 !important;
+  color: #888 !important;
+} */
+
+/* Search, filter, and add staff buttons */
+
+
+
+/* Align title and buttons on the same line */
+
+.recoveryorganizationmain {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-title {
+  flex: 1;
+}
+
+/* Pagination styling */
+
+/* .organizationlist-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.organizationlist-pagination-arrow {
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  color: #697077;
+}
+
+.organizationlist-pagination-item {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #697077;
+}
+
+.organizationlist-pagination-item.active {
+  background-color: #B2DCFF;
+  color: #0089FF;
+  border-radius: 50%;
+}
+
+.organizationlist-pagination-ellipsis {
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.organizationlist-prevoius-arrow,
+.organizationlist-next-arrow {
+  font-size: 16px; */
+/* } */
+
+/* Ensure the default image is displayed correctly */
+
+.organizationListpagination-page.active {
+  background-color: #B2DCFF;
+  color: #067aee;
+  border-radius: 50%;
+  font-weight: 500;
+  padding: 12px;
+  width: 18px;
+  margin-top: -11%;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+   
+   .organizationListpagination-page
+{
+  height:28px;
+  width: 10px;
+  margin-top: -11%;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 3px;
+  border: 50% solid #ccc;
+  font-size: 12px;
+  margin-left: 20px;
+  flex-direction: row;
+}
+
+.organizationList-ellipsis {
+    margin-right: 10px; 
+  }
+
+  .organizationList-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+  }
+
+  .organizationList-pagination-arrow {
+    cursor: pointer;
+    margin-right: 0px;
+    color: #697077;
+    font-size: 13px; 
+    }
+
+    .organizationList-prevoius-arrow
+{
+  font-size: 20px;
+  margin-right: 10px;
+  color:#697077;
+}
+
+
+.organizationList-pagination-pages {
+    display: flex;
+    color: #697077;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+
+
+  .organizationList-next-arrow
+{
+  margin-left: 10px; 
+  font-size: 20px !important;
+  color:#697077;
+}
+
+
+.organizationlist-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.organizationlist-tds {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  color: #464E5F;
+  border: none;
+}
+
+/* Responsive Design */
+
+/* Extra small screens (xs) */
+@media only screen and (max-width: 767px) {
+  .organizationlist-main-card {
+    width: 90%;
+  }
+  .organizationlist-sub-card {
+    max-width: 90% !important;
+  }
+  .organizationlist-search-input {
+    width: 150px;
+  }
+  .organizationlist-search-filter-add {
+    flex-direction: column;
+  }
+  .organizationlist-search-input-container {
+    width: 100%;
+  }
+  .organizationlist-add-button,
+  .organizationlist-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile screens (xs) */
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .organizationlist-main-card {
+    width: 100%;
+  }
+  .organizationlist-sub-card {
+    max-width: 100% !important;
+  }
+  .organizationlist-search-input {
+    width: 200px;
+  }
+  .organizationlist-heading {
+    font-size: 1.2rem;
+  }
+  .organizationlist-search-filter-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .organizationlist-search-input-container {
+    width: 100%;
+  }
+  .organizationlist-add-button,
+  .organizationlist-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Medium screens (min-width: 992px) and (max-width: 1199px) */
+@media (min-width: 800px) and (max-width: 990px) {
+  .organizationlist-main-card {
+    width: 100%;
+  }
+  .organizationlist-sub-card {
+    max-width: 100% !important;
+  }
+  .organizationlist-search-input {
+    width: 100px;
+  }
+  .organizationlist-heading {
+    font-size: 1.2rem;
+  }
+  .organizationlist-search-filter-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .organizationlist-search-input-container {
+    width: 10%;
+  }
+  .organizationlist-add-button,
+  .organizationlist-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small screens (min-width: 768px) and (max-width: 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .organizationlist-main-card {
+    width: 100%;
+  }
+  .organizationlist-sub-card {
+    max-width: 100% !important;
+  }
+  .organizationlist-search-input {
+    width: 200px;
+  }
+  .organizationlist-heading {
+    font-size: 1.2rem;
+  }
+  .organizationlist-search-filter-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .organizationlist-search-input-container {
+    width: 100%;
+  }
+  .organizationlist-add-button,
+  .organizationlist-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+@media (min-width: 580px) and (max-width: 767px) {
+  .organizationlist-main-card {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .organizationlist-sub-card {
+    max-width: 100%;
+    padding: 0.8rem;
+  }
+  .organizationlist-table {
+    font-size: 0.2rem;
+    width: 80%;
+  }
+  .organizationlist-search-input {
+    width: 150px;
+    height: 0.8rem;
+  }
+  .organizationlist-add-button {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+  }
+  .organizationlist-filter-button {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.5rem;
+  }
+  .organizationlist-icon-button {
+    margin-left: 0.2rem;
+  }
+  .organizationlist-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .organizationlist-th,
+  .organizationlist-td {
+    font-size: 0.6rem;
+    padding: 0.1rem;
+    border: none;
+    color: #464E5F;
+  }
+  .organizationlist-tds {
+    font-size: 0.6rem;
+    padding: 0.1rem;
+    border: none;
+    color: #464E5F;
+  }
+  .organizationlist-name {
+    font-size: 0.6rem;
+  }
+  .organizationlist-search-icon {
+    height: 8px;
+    width: 8px;
+  }
+  .organizationlist-heading {
+    font-size: 1rem;
+  }
+}

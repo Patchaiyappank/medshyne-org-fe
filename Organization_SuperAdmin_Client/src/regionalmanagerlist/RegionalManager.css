@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.overall-addRM {
+  font-size: 14px;
+  padding-bottom: 80px;
+  margin-left: 205px;
+}
+.addRM {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  margin-left: 43px;
+  color: #212121;
+  margin-bottom: 2.2%;
+}
+.rmdetailhead {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.addRM-lines {
+  width: 98%;
+  gap: 0px;
+  opacity: 0px;
+}
+.addRM-content {
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  width: 96%;
+  height: 94%;
+  top: 1%;
+  left: 26%;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding-left: 30px;
+}
+.addRM-btns {
+  margin-left: 60%;
+  width: 38%;
+  height: 5%;
+  padding: 15px 29px 15px 29px;
+  gap: 10px;
+  border-radius: 43px;
+  opacity: 0px;
+  background-color: #e51837;
+  color: #ffffff;
+  border: none;
+}
+.addRM-inputs {
+  border: 1px solid #ecececee;
+  border-radius: 8px;
+  height: 40px;
+  width: 250px;
+  padding-left: 10px;
+  color: #697077;
+  outline: none;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0.5px 0.5px 1px; */
+  margin-top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.inputStyle {
+  border: 1px solid #ecececee;
+  margin-top: 5px;
+  border-radius: 8px !important;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0.5px 0.5px 1px !important; */
+  width: 270px;
+  height: 40px;
+}
+
+.addRM-inputs:focus {
+  outline: none;
+}
+
+.areahead {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.custom-hr2 {
+  border: none;
+  height: 1px;
+  background-color: #b8b5b5;
+  margin: 0;
+}
+.custom-hr3 {
+  border: none;
+  height: 2px;
+  background-color: #b8b5b5;
+  margin: 0;
+  width: 97% !important;
+}
+
+@media (max-width: 575.98px) {
+  .custom-mobile-col {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .row {
+    flex-direction: row;
+  }
+  .rmdetailhead {
+    width: 100%;
+  }
+}
+
+@media (max-width: 890px) {
+  .overall-addRM {
+    font-size: 14px;
+    padding-bottom: 80px;
+    margin-left: 120px;
+  }
+  .pic-btn1 {
+    position: relative;
+    font-size: 12px;
+    margin-left: 30px !important;
+    width: 105px !important;
+  }
+}
+@media (max-width: 805px) {
+  .overall-addRM {
+    font-size: 14px;
+    padding-bottom: 80px;
+    margin-left: 120px;
+  }
+  .addRM {
+    width: 100% !important;
+  }
+  .addRM-content {
+    width: 100% !important;
+  }
+
+  .custom-mobile-col {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .rmdetailhead {
+    width: 500px;
+  }
+  .pic-btn1 {
+    position: relative;
+    font-size: 10px;
+    margin-left: 30px !important;
+    width: 105px !important;
+  }
+  .addRM-inputs {
+    width: 120px !important;
+  }
+  .inputStyle input {
+    width: 120px !important; /* Adjust the width for smaller screens */
+    height: 35px; /* Adjust the height for smaller screens */
+    border-radius: 6px; /* Adjust the border-radius for smaller screens */
+    padding-top: 4px; /* Adjust the padding for smaller screens */
+  }
+  .inputStyle {
+    width: 120px !important; /* Adjust the width for smaller screens */
+    height: 35px; /* Adjust the height for smaller screens */
+    border-radius: 6px; /* Adjust the border-radius for smaller screens */
+  }
+
+  img[name="profile"] {
+    width: 120px; /* Adjust the width for smaller screens */
+    height: 100px; /* Adjust the height for smaller screens */
+    border-radius: 15px; /* Adjust the border radius for smaller screens */
+  }
+  .btnz {
+    margin-left: 68% !important;
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .addRM {
+    width: 100% !important;
+  }
+  .addRM-content {
+    width: 100% !important;
+  }
+
+  .custom-mobile-col {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .rmdetailhead {
+    width: 800px;
+  }
+  .pic-btn1 {
+    position: relative;
+    /* font-size: 10px; */
+    margin-left: 50px !important;
+  }
+  .addRM-inputs {
+    width: 180px !important;
+  }
+  .inputStyle input {
+    width: 180px !important; /* Adjust the width for smaller screens */
+    height: 35px; /* Adjust the height for smaller screens */
+    border-radius: 6px; /* Adjust the border-radius for smaller screens */
+    padding-top: 4px; /* Adjust the padding for smaller screens */
+  }
+  .inputStyle {
+    width: 180px !important; /* Adjust the width for smaller screens */
+    height: 35px; /* Adjust the height for smaller screens */
+    border-radius: 6px; /* Adjust the border-radius for smaller screens */
+  }
+
+  img[name="profile"] {
+    width: 200px; /* Adjust the width for smaller screens */
+    height: 200px; /* Adjust the height for smaller screens */
+    border-radius: 15px; /* Adjust the border radius for smaller screens */
+  }
+  .btnz {
+    margin-left: 70% !important;
+    width: 150px !important;
+  }
+  .pincodeleft {
+    margin-left: 92px !important;
+    /* padding-right: -100px !important; */
+  }
+}

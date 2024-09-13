@@ -1,0 +1,312 @@
+body, .order-details-inventory-container {
+  overflow-x: hidden; 
+}
+
+.order-details-inventory-container {
+  background-color: #f8f9fa; 
+  padding: 20px;
+  margin-left: 198px;
+  width: 87%;
+}
+
+
+.order-details-details-container {
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff;
+  max-height: 540px;
+  overflow-y: auto;  
+  padding-right: 15px;
+  border-radius: 20px; 
+
+}
+.order-details-details-container::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; 
+}
+
+
+.order-details-inventory-title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 0.5rem;
+}
+
+.order-details-inventory-subtitle {
+ font-family: Poppins;
+  font-size: 29px;
+  font-weight: 500;
+  color: rgba(49, 49, 49, 1);
+  margin-bottom: 0;
+  
+}
+
+.order-details-divider {
+  border: px solid rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.order-details-badge-status {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 16px;
+  margin-left: 5px;
+}
+
+/* Status-specific styles */
+.order-details-badge-status.pending {
+  color: rgba(255, 195, 61, 1);
+  background: rgba(255, 195, 61, 0.1) !important;
+}
+
+.order-details-badge-status.delivered {
+  color: rgba(34, 197, 94, 1);
+  background: rgba(34, 197, 94, 0.1) !important;
+}
+
+.pending{
+  width: 100px; 
+}
+
+.order-details-items-ordered-title {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+
+.order-details-btn-custom {
+  width: 180px;
+  height: 42px;
+  border-radius: 70px;
+  background-color: rgba(0, 137, 255, 1);
+  color: white;
+  margin-left: 60px;
+}
+.order-details-btn-custom2
+{
+  width: 180px;
+  height: 42px;
+  border-radius: 70px;  
+  background-color: rgba(0, 137, 255, 1);
+  color: white;
+}
+.order-details-btn-custom:hover {
+  background-color: #0056b3;
+}
+
+.order-details-order-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.order-details-info-row {
+  margin-bottom: 1.5rem;
+}
+
+.order-details-info-title {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(181, 181, 195, 1);
+}
+
+.order-details-info-content {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(70, 78, 95, 1);
+}
+
+.order-details-info-content1 {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(70, 78, 95, 1);
+  width: 100%;
+}
+
+.order-details-orders-table {
+  margin-top: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.order-details-medicinename{
+  padding-left: 175px !important;
+}
+.text-centerhsn{
+  padding-left: 166px !important;
+}
+
+.text-centerqu{
+padding-left: 166px !important;
+}
+
+.order-details-orders-table th,
+.order-details-orders-table td {
+  padding: 15px;
+  vertical-align: middle;
+}
+
+
+.order-details-orders-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  font-size: 10px;
+  padding-left: 28px;
+  border: none; 
+}
+
+.order-details-orders-table td {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.ordermedname{
+  font-size: 14px !important; 
+  color: #B5B5C3 !important;
+  padding-left: 150px !important;
+  width: 40% !important;
+}
+.orderhsncode1{
+  font-size: 14px !important; 
+  color: #B5B5C3 !important;
+  padding-left: 150px !important;
+  width: 30% !important;
+}
+.orderquantity{
+  font-size: 14px !important; 
+  color: #B5B5C3 !important;
+  padding-left: 150px !important;
+  width: 30% !important;
+}
+@media (max-width: 768px) {
+  .order-details-info-row > div {
+    margin-bottom: 1rem;  
+  }
+
+  .order-details-info-content1 {
+    width: 100%;
+    word-break: break-word;
+  }
+
+  .order-details-btn-custom, .order-details-btn-custom2 {
+    width: 30%;
+    height: 30%;
+    margin-top: -4rem;
+    margin-left: 70%;
+
+  }
+  .order-details-orders-table {
+    margin-top: -0px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 576px) {
+  .order-details-info-row {
+    flex-direction: column;
+  }
+
+  .order-details-order-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .order-details-badge-status {
+    margin-top: 0.5rem;
+  }
+
+  .order-details-btn-custom, .order-details-btn-custom2 {
+    width: 100%;
+  }
+}
+@media (max-width: 890px){
+  .order-details-inventory-container {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    margin-left: 119px;
+    width: 87%;
+  }
+  .order-details-medicinename{
+    padding-left: 75px !important;
+  }
+  .text-centerhsn{
+    padding-left: 106px !important;
+  }
+  
+  .text-centerqu{
+  padding-left: 106px !important;
+  }
+  .ordermedname{
+    font-size: 14px !important; 
+    color: #B5B5C3 !important;
+    padding-left: 73px !important;
+    width: 30% !important;
+  }
+  .orderhsncode1{
+    font-size: 14px !important; 
+    color: #B5B5C3 !important;
+    padding-left: 100px !important;
+    width: 30% !important;
+  }
+  .orderquantity{
+    font-size: 14px !important; 
+    color: #B5B5C3 !important;
+    padding-left: 100px !important;
+    width: 30% !important;
+  }
+  .order-details-btn-custom{
+    width: 117%;
+    height: 42%;
+    margin-top: 0rem;
+    margin-left: -21%;
+
+  }
+  .order-details-btn-custom2 {
+    width: 187%;
+    height: 52%;
+    margin-top: 2rem;
+    margin-left: -84%;
+
+  }
+  .order-details-orders-table {
+    margin-top: -0px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+ }
+
+ @media (max-width: 763px){
+
+  .order-details-btn-custom2
+  {
+    width: 30%;
+    height: 42%;
+    margin-top: 4rem;
+    margin-left: 70%;
+  }
+ 
+  .order-details-btn-custom
+  {
+    width: 30%;
+    height: 42%;
+    margin-top: -4rem;
+    margin-left: 70%;
+  }
+
+ }

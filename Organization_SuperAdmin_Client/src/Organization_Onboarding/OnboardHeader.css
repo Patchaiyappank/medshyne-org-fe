@@ -1,0 +1,51 @@
+.onboard-button {
+    display: flex;
+    margin-left: 15px;
+margin-top: -10px;
+
+  }
+
+ .onboard-head-container
+  {
+    background-color: #F9F9F9;
+    height: 100vh;
+width: 100%;
+    padding-top:5px;
+    padding-right: 25px;
+    padding-left: 200px;
+  }
+
+  .onboard-list {
+    font-size: 13px;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+
+  .onboard-list.active {
+    position: relative;
+    color: white;
+    padding: 7px 25px 7px 25px;
+    border-radius: 6px;
+    background-color: #0086ff !important;
+
+  }
+  .onboard-list.active::after {
+    position: absolute;
+    
+    left: 3px;
+    bottom: -10px; /* Adjust the distance between text and underline as needed */
+    width: 90%;
+    height: 2px;
+    background-color:#0086ff ; /* Same color as text */
+  }
+
+  @media (max-width: 890px) {
+    .onboard-head-container
+    {
+      padding-left: 130px;
+    }
+  }

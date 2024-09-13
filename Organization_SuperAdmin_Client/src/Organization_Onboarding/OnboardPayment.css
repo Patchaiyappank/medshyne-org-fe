@@ -1,0 +1,276 @@
+.add-onboardpayment-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  margin-right: -15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+ }
+ .onboardpayment-complete
+ {
+  color:#22C55E;
+ }
+
+
+.onboardpayment-table-container-innercell
+{
+
+height: auto;
+
+padding-right: 20px;
+}
+ .onboardpaymentingList-tableRow
+ {
+  font-size: 13px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+ }
+
+
+.onboardpayment-table-container
+{
+background-color: white;
+  margin-left: 20px !important;
+
+  height: auto;
+  font-size: 12px !important;
+  padding: 20px 5px 20px 20px;
+  margin-top: 30px;
+}
+
+.onboardpayment-table-border
+{
+  border-radius: 20px !important;
+}
+
+ .onboardpayment-action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+ }
+ 
+ .onboardpayment-action-icon {
+  width: 25px; 
+  height: 25px;
+ }
+ .onboardpayment-action-header {
+  display: none; /* Hide the action column header */
+ }
+ /* DoctorList.css */
+ 
+ .onboardpayment-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0px 2px;
+ }
+ 
+ .onboardpayment-button-icon {
+  /* Adjust the spacing between the icon and the text */
+  width: 20px; /* Adjust the size of the icon */
+  height: 20px;
+  margin-right: 5px;
+ }
+.onboard-pdfDownloader
+{
+  font-size: 13px;
+  text-align: center !important;
+}
+
+/* Pagination */
+
+.onboardpaymentingList-tableRow th:last-child
+{
+width: 50px; /* Adjust this value to your desired width */
+min-width: 50px; /* Ensures the width doesn't go below this value */
+max-width: 50px; /* Ensures the width doesn't go above this value */
+}
+
+.onboardpayment-text-muted
+{
+color: #B5B5C3; 
+font-size: 11px;
+}
+
+.onboardpaymenting-table td {
+  border-bottom: 1px solid #302f2f; /* Adjust the color and thickness as needed */
+}
+
+.onboardpaymenting-table-details
+{
+color: #464E5F !important;
+ font-size: 12px;
+  font-weight: 500;
+
+}
+.pdf
+{
+color:#6941C6;
+background-color: transparent !important;;
+border: none !important;
+justify-content: center;
+z-index: 0;
+text-align: center;
+}
+.onboardpaymenting-status
+{
+font-size: 100%;
+font-weight: bold;
+white-space: nowrap;
+}
+.onboard-table-border
+{
+  border-bottom: 1px solid rgb(223, 215, 215) !important;
+  vertical-align: middle;
+}
+
+.onboard-table-border:last-child
+{
+  border-bottom: none !important;
+}
+
+.onboardpaymentingList-tableRow th,
+.onboardpaymentingList-tableRow td {
+width: 20%; /* Set a base width for each column */
+padding: 8px;
+}
+
+.onboardpayment-paid-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 7px;
+  background-color: #ECFDF3; /* Light green background */
+  border-radius: 1.5rem; /* Rounded corners */
+  color: #027A48 ;/* Green text color */
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.onboardpayment-paid-status svg {
+  margin-right: 0.4rem;
+fill:  #12B76A !important;
+
+}
+
+
+.onboardpayment-profile
+{
+  width: 40px;
+  height: 45px;
+}
+
+
+
+@media screen  and (max-width: 1000px) {
+  .onboardpayment-profile
+  {
+    width: 30px;
+    height: 35px;
+  }
+  .onboardpayment-text-muted
+  {
+    font-size: 10px;
+  }
+
+.onboard-pdfDownloader
+{
+  font-size: 12px;
+}
+
+.onboardpaymenting-table-details
+{
+font-size:12px;
+}
+.onboardpaymenting-status{
+font-size: 12px;
+}
+.onboardunpaid-text-muted
+{
+font-size: 10px;
+}
+.onboardpayment-action-icon
+{
+width: 15px;
+height: 15px;
+}
+.onboardpaymentingList-tableRow
+{
+font-size: 10px !important;
+}
+
+
+}
+
+
+@media screen  and (max-width: 935px) {
+  .onboardpayment-profile
+{
+  width: 25px;
+  height: 30px;
+}
+.onboardpayment-text-muted
+{
+  font-size: 9px;
+}
+.onboard-pdfDownloader
+{
+  font-size: 10px;
+}
+
+  .onboardpaymenting-table-details
+  {
+  font-size:10px;
+  }
+  .onboardpayment-paid-status
+  {
+    font-size: 10px;
+  }
+  .onboardpaymenting-status{
+  font-size: 10px;
+  }
+  .onboardunpaid-text-muted
+  {
+  font-size: 10px;
+  }
+  .onboardpayment-action-icon
+  {
+  width: 15px;
+  height: 15px;
+  }
+  .onboardpaymentingList-tableRow
+  {
+  font-size: 10px !important;
+  }
+  
+  
+  }
+
+@media screen and (max-width: 874px)
+{
+.onboardpaymentingList-tableRow th,
+.onboardpaymentingList-tableRow td {
+  width: 15%; /* Set a base width for each column */
+  padding: 8px;
+  text-align: left;
+}
+.pdf
+{
+  text-align: center;
+}
+.onboardpayment-head-container
+{
+padding-right: 5px;
+padding-left: 5px;
+}
+.onboardpayment-table-container
+{
+margin-left: 0px !important;
+}
+
+}

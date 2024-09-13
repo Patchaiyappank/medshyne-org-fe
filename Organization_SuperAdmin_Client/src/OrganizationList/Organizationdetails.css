@@ -1,0 +1,52 @@
+orgprofile{
+  position: relative;
+  display: inline-block;
+ }
+ 
+ .org-image {
+  max-height: 200px; /* Adjust this value to control the height */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+ }
+ 
+ .upload-button {
+  position: absolute;
+  bottom: 17px; 
+  left:49%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+ }
+ 
+ .card {
+  margin-bottom: 1rem; 
+ }
+ 
+ .image-container {
+  position: relative; 
+ }
+ 
+ .upload-button {
+  position: absolute; 
+  bottom: 8;
+  right: 0;
+ }
+ 
+ 
+ @media (max-width: 768px) {
+  .info-card {
+    margin-bottom: 1rem; 
+  }
+ }
+ 
+ .info-card {
+  height: 110%;
+  width: 54%; /* Adjust the width as needed */
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 20px;
+  font-size: 1rem; /* Adjust as needed */
+ }
+ 
+ .background-color {
+  background-color: #adc3d9; /* Adjust the color as needed */
+  padding: 20px; /* Optional: Add padding for spacing */
+ }

@@ -1,0 +1,441 @@
+.recoverystaffs-staffs-name {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+
+/* Main card styling */
+
+.recoverystaffs-main-card {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: auto;
+  margin-top: 1%;
+}
+
+.recoverystaffs-sub-card {
+  background-color: #FFFFFF;
+  color: #464E5F;
+  max-width: 100% !important;
+  border: none;
+  margin-top: -1%;
+  height: auto ;
+}
+
+
+/* Table styling */
+/* .recoverystaffs-table-container{
+  max-height: 280px;
+  overflow-y: auto;
+} */
+.recoverystaffs-table-container::-webkit-scrollbar
+{
+  display: none;
+}
+
+.recoverystaffs-table {
+  max-width: 100% !important;
+  border-collapse: collapse;
+  
+}
+.recoverystaff-table-head{
+  position: sticky !important;
+  top: 0;
+  z-index: 1000 !important;
+}
+
+
+.recoverystaffs-td {
+  text-align: left;
+  padding: 0.5rem;
+  border: none;
+}
+
+
+
+/* Search, filter, and add staff buttons */
+/* .studentlist-search-filter-add {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 2rem;
+} */
+
+.recoverystaffs-search-input {
+  flex: 2;
+  width: 450px;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.recoverystaffs-search-input:focus {
+  outline: none; /* Ensures there's no outline when focused */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Enhance the box-shadow on focus for better UX */
+}
+
+/* Search input container styling */
+
+.recoverystaffs-search-input-container {
+  position: relative;
+  flex: 2;
+}
+
+.recoverystaffs-search-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+  
+}
+
+
+/* Make the buttons appear on a single line */
+
+.recoverystaffs-search-filter-add > * {
+  margin-right: 0.5rem;
+}
+
+.recoverystaffs-search-filter-add > *:last-child {
+  margin-right: 0;
+}
+
+/* Icon button styling */
+
+.recoverystaffs-icon-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: 0.5rem;
+}
+
+.recoverystaffs-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+/* Align title and buttons on the same line */
+
+.recoverystaffmain  {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-title {
+  flex: 1;
+}
+
+/* Pagination styling */
+
+.staffsListpagination-page.active {
+  background-color: #B2DCFF;
+  color: #067aee;
+  border-radius: 50%;
+  font-weight: 500;
+  padding: 12px;
+  width: 18px;
+  margin-top: -23%;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+   
+   .staffsListpagination-page
+{
+  height:28px;
+  width: 10px;
+  margin-top: -19%;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 3px;
+  border: 50% solid #ccc;
+  font-size: 12px;
+  margin-left: 20px;
+  flex-direction: row;
+}
+
+.staffsList-ellipsis {
+    margin-right: 10px; 
+  }
+
+  .staffsList-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+  }
+
+  .staffsList-pagination-arrow {
+    cursor: pointer;
+    margin-right: 0px;
+    color: #697077;
+    font-size: 13px; 
+    }
+
+    .staffsList-prevoius-arrow
+{
+  font-size: 20px;
+  margin-right: 10px;
+  color:#697077;
+}
+
+
+.staffsList-pagination-pages {
+    display: flex;
+    color: #697077;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+
+
+  .staffsList-next-arrow
+{
+  margin-left: 10px; 
+  font-size: 20px !important;
+  color:#697077;
+}
+
+/* Ensure the default image is displayed correctly */
+
+.recoverystaffs-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.recoverystaffs-tds {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  color: #464E5F;
+  border: none;
+}
+
+/* Responsive Design */
+
+/* Extra small screens (xs) */
+@media only screen and (max-width: 767px) {
+  .recoverystaffs-main-card {
+    width: 90%;
+  }
+  .recoverystaffs-sub-card {
+    max-width: 90% !important;
+  }
+  .recoverystaffs-search-input {
+    width: 150px;
+  }
+  .recoverystaffs-search-filter-add {
+    flex-direction: column;
+  }
+  .recoverystaffs-search-input-container {
+    width: 100%;
+  }
+  .recoverystaffs-add-button,
+  .recoverystaffs-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile screens (xs) */
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .recoverystaffs-main-card {
+    width: 100%;
+  }
+  .recoverystaffs-sub-card {
+    max-width: 100% !important;
+  }
+  .recoverystaffs-search-input {
+    width: 200px;
+  }
+  .recoverystaffs-heading {
+    font-size: 1.2rem;
+  }
+  .recoverystaffs-search-filter-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .recoverystaffs-search-input-container {
+    width: 100%;
+  }
+  .recoverystaffs-add-button,
+  .recoverystaffs-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Medium screens (min-width: 992px) and (max-width: 1199px) */
+@media (min-width: 800px) and (max-width: 990px) {
+  .recoverystaffs-main-card {
+    width: 100%;
+  }
+  .recoverystaffs-sub-card {
+    max-width: 100% !important;
+  }
+  .recoverystaffs-search-input {
+    width: 100px;
+  }
+  .recoverystaffs-heading {
+    font-size: 1.2rem;
+  }
+  .recoverystaffs-search-filter-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .recoverystaffs-search-input-container {
+    width: 10%;
+  }
+  .recoverystaffs-add-button,
+  .recoverystaffs-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small screens (min-width: 768px) and (max-width: 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .recoverystaffs-main-card {
+    width: 100%;
+  }
+  .recoverystaffs-sub-card {
+    max-width: 100% !important;
+  }
+  .recoverystaffs-search-input {
+    width: 200px;
+  }
+  .recoverystaffs-heading {
+    font-size: 1.2rem;
+  }
+  .recoverystaffs-search-filter-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .recoverystaffs-search-input-container {
+    width: 100%;
+  }
+  .recoverystaffs-add-button,
+  .staffsslist-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Extra small screens (min-width: 480px) and (max-width: 767px) */
+@media (min-width: 768px) and (max-width: 890px) {
+  .recoverystaffs-main-card {
+    width: 100%;
+    margin-right: 0;
+  }
+  .recoverystaffs-sub-card {
+    width: 100%;
+    padding: 0.8rem;
+  }
+  .recoverystaffs-table {
+    font-size: 0.2rem;
+    width: 80%;
+  }
+  .recoverystaffs-search-input {
+    width: 200px;
+  }
+  .recoverystaffs-add-button {
+    padding: 0.2rem 0.8rem;
+    font-size: 1rem;
+  }
+  .recoverystaffs-filter-button {
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+  }
+  .recoverystaffs-icon-button {
+    margin-left: 0.2rem;
+  }
+  .recoverystaffs-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .recoverystaffs-heading {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .recoverystaffs-main-card {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .recoverystaffs-sub-card {
+    max-width: 100%;
+    padding: 0.8rem;
+  }
+  .recoverystaffs-table {
+    font-size: 0.2rem;
+    width: 80%;
+  }
+  .recoverystaffs-search-input {
+    width: 150px;
+    height: 0.8rem;
+  }
+  .recoverystaffs-add-button {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+  }
+  .recoverystaffs-filter-button {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.5rem;
+  }
+  .recoverystaffs-icon-button {
+    margin-left: 0.2rem;
+  }
+  .recoverystaffs-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .recoverystaffs-th,
+  .recoverystaffs-td {
+    font-size: 0.6rem;
+    padding: 0.1rem;
+    border: none;
+    color: #464E5F;
+  }
+  .recoverystaffs-tds {
+    font-size: 0.6rem;
+    padding: 0.1rem;
+    border: none;
+    color: #464E5F;
+  }
+  .recoverystaffs-name {
+    font-size: 0.6rem;
+  }
+  .recoverystaffs-search-icon {
+    height: 8px;
+    width: 8px;
+  }
+  .recoverystaffs-heading {
+    font-size: 1rem;
+  }
+}

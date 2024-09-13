@@ -1,0 +1,19 @@
+*{
+  font-family: inter;
+}
+.pagination-number {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: inherit;
+}
+
+.pagination-number.active {
+  color: #0089FF;
+  background-color: rgba(0, 137, 255, 0.1);
+}
+
+  @media (min-width:768)  and (max-width:991px){
+    
+  }

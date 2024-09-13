@@ -1,0 +1,100 @@
+.Employeedetails-line{
+    width: 99%;
+    }
+.overall-Employeedetails{
+    width: 1291px;
+    padding-left: 16%;
+}
+.employ-gender
+{
+    width: 100%;
+}
+.upload-btn{
+    transform: translatey(-35%)
+}
+.Employeedetails-content{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 96%;
+    height: 81%;
+    top: 10%;
+    left: 26%;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+
+}
+ @media (max-width: 575.98px) {
+
+    .custom-mobile-col {
+        flex: 0 0 33%;
+        max-width: 33%;
+
+    }
+    .overall-Employeedetails {
+        width: 80%;
+        margin-left: 6%;
+
+    }
+    .Employeedetails-line{
+    width: 82%;
+    }
+}
+@media (max-width: 729.98px) {
+
+    /* .custom-mobile-col {
+        flex: 0 0 33%;
+        max-width: 33%;
+
+    } */
+    .overall-Employeedetails {
+        width: 90%;
+        padding-left: 15%;
+  
+}
+}
+/* @media (min-width: 761px) {
+
+    .custom-mobile-col {
+        flex: 0 0 33%;
+        max-width: 33%;
+       
+    }
+
+    .overall-Employeedetails {
+        width: 70%;
+        margin-left: 15%;
+        
+    }
+
+    .Employeedetails-line {
+        width: 90%;
+         Line width adjusted for larger screens 
+    }
+} */
+
+/* CSS for reducing sidebar and adjusting content area in small screens */
+@media screen and (min-width: 390px) and (max-width: 890px) {
+    
+    .overall-Employeedetails {
+      margin-left: 110px; /* Adjust the content margin to match the reduced sidebar */
+      padding: 10px; /* Adjust padding for content area */
+    }
+  
+   .employee-button{
+    margin-left: 470px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+   }
+   .Employeedetails-content{
+    width: 980px;
+   }
+   .employee-line{
+    width: 800px;
+   }
+   .Employeedetails-line{
+    width: 997px;
+   }
+  }

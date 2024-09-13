@@ -1,0 +1,154 @@
+.nav-link {
+ font-size: 0.9rem;
+ display: flex;
+ align-items: center;
+ padding: 8px;
+ border: 1px solid transparent;
+ border-radius: 10px;
+ transition: background-color 0.3s, color 0.3s;
+ margin-right: 30px;
+ color: #4D4D4D; /* Default text color */
+}
+
+.nav-link img {
+ width: 16px; /* Smaller icon size */
+ height: 16px; /* Smaller icon size */
+ margin-right: 10px; /* Adding some space between icon and text */
+ transition: filter 0.3s;
+}
+
+.nav-link:hover {
+ background-color: #e3effa;
+ color: #0089FF; /* Hover text color */
+}
+
+.sidebar-list
+{
+  margin-bottom: 8px;
+}
+
+.nav-link:hover img {
+ filter: brightness(0) saturate(100%) invert(35%) sepia(99%) saturate(1277%) hue-rotate(190deg) brightness(96%) contrast(101%); /* Hover icon color */
+}
+
+/* Ensure child elements inherit the hover color */
+.nav-link:hover * {
+ color: #0089FF; /* Hover text color for child elements */
+}
+
+/* Additional styles for footer */
+.sidebar-footer {
+ margin-top: auto;
+ padding: 10px;
+ text-align: center;
+ border-top: 1px solid #e3effa;
+}
+
+.sidebar-footer img {
+ max-width: 50%;
+}
+
+.sidebar-footer p {
+ margin-top: 10px;
+ font-size: 0.9rem;
+ color: #4D4D4D;
+}
+.nav-link.active {
+ background-color: #e3effa; /* Example background color */
+ color: #0089FF; /* Example text color */
+   /* Example font weight */
+  /* Add any other styles you want for the active link */
+}
+.nav-link.active {
+  background-color: #e3effa; /* Example background color */
+  color: #0089FF; /* Text color when active */
+}
+
+.nav-link.active img.icon {
+  
+  filter: brightness(0) saturate(100%) invert(44%) sepia(95%) saturate(576%) hue-rotate(171deg) brightness(92%) contrast(95%);
+}
+
+.nav-link:hover {
+  background-color:#e3effa;
+}
+
+.sidebar-container
+{
+height: 100%;
+    width: 200px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    border-radius:15px; 
+    z-index:1000;
+}
+.nav-link span 
+{
+  white-space: nowrap;
+}
+.Sidebar-image-container
+{
+  max-width: 75%;
+   margin-top: -10px;
+   margin-left:-25px;
+}
+.sidebar-footer-profile
+{
+  margin-left: -130px;
+  margin-bottom: -7px;
+  cursor: pointer;
+}
+.sidebar-footer-head
+{
+  margin-left:-100px;
+  margin-bottom:-12px;
+  font-weight:bold;
+  color:black;
+  font-size:12px;
+}
+
+.sidebar-footer-mail
+{
+
+ color:#4D4D4D;
+  font-size:10px;
+}
+
+@media (max-width: 890px) {
+  .Sidebar-image-container
+{
+  max-width: 90px;
+ margin-left: -10px;
+}
+  .nav-link span {
+    font-size: 10px;
+    padding-left: -3px;
+  }
+  .sidebar-container{
+    width: 130px;
+
+  }
+img.me-3.icon{
+margin-right: 5px !important;
+}
+.nav-link{
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.sidebar-footer-profile
+{
+  margin-left: 0px;
+  text-align: center !important;
+}
+.sidebar-footer-head
+{
+  margin-left: 0px;
+
+}
+.sidebar-footer-mail
+{
+  margin-left: 0px;
+  font-size: 9px !important;
+}
+
+}
+

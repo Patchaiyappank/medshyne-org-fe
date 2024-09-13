@@ -1,0 +1,193 @@
+#calender{
+  width: 92%;
+   background-color: #FFFFFF;
+  
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+   border:  #ccc;
+   border-radius:25px;
+   font-size: 12px;
+   margin-top: 1%;
+  text-align: start;
+  height: 30px;
+
+  }
+
+  .calendar-container {
+    background-color:#FFFFFF;/* Set background color to white */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for visual effect */
+    border-radius: 4px; /* Optional: Add rounded corners */
+    padding: 10px; /* Optional: Adjust padding */
+   width: 87%;
+    margin-left: 20%;
+  
+  }
+ 
+  .datepicker-wrapper {
+    position: relative;
+  
+  }
+      .dashboard-datepicker-input{
+        width: 150%;
+        height: 29px;
+        border: 1px solid #FFFFFF !important ;
+   margin-right: 22px;
+        cursor: pointer;
+      font-size: 10px;
+      border-radius:25px;
+        box-shadow:none;
+        font-size: 12px;
+        margin-top: 0.2%;
+     padding: 10px; 
+      }
+      .dateleftticon{
+        width: 5px;
+        margin-right: 5%; 
+        margin-top: -18px; 
+       
+      }
+      .dashboard-dateicon {
+      
+     margin-left: 26%;
+       cursor: pointer;
+       position:sticky;
+      }
+    
+    .datepicker-input {
+     background-color:white;
+      font-size: 12px; /* Adjust font size as needed */
+      color: #000000B2; /* Text color */
+      padding: 19px;
+  
+    }
+    .react-datepicker__day--selected,
+    .react-datepicker__day--keyboard-selected {
+      background-color: #1D5EFF !important;
+      color: #FFFFFF;
+      border: 1px solid #1D5EFF !important ;
+    }
+    
+    .react-datepicker__day:hover,
+    .react-datepicker__day--selected:hover,
+    .react-datepicker__day--keyboard-selected:hover {
+      background-color: #D0DEFF!important;
+      border: 1px solid #1D5EFF !important ;
+      color: #1D5EFF !important;
+    }
+    
+    .react-datepicker__day--today {
+      font-weight: bold;
+    }
+    .react-datepicker__day{
+      background-color: #F5F5F5;
+      border-radius: 3px;
+    }
+    
+   
+   
+    .button-custom {
+      background-color: #DDDDDD;;
+      border: 1px solid #DDDDDD;
+      border-radius: 5px;
+      color: #888888;
+      cursor: pointer;
+      font-size: 13px;
+      
+    }
+   .react-datepicker__day-names{
+      background-color: #FFFFFF;
+      padding: 5px;
+      width: 100%;
+    
+   }
+   .react-datepicker__current-month{
+    background-color: #FFFFFF;
+  
+    
+   }
+  
+  
+  .datepicker-input {
+    width: calc(100% - 30px); /* Adjust to leave space for the icon */
+    padding-right: 30px; /* Ensure padding does not overlap with the icon */
+  }
+  
+  .datepicker-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .react-datepicker__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .react-datepicker__navigation img.dateleftticon {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+  }
+  
+  .react-datepicker__current-month {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+   
+  }
+  
+
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .buttons-container {
+    display: flex;
+    width: 90%;
+  }
+  .dashboard-datepicker-input::placeholder {
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .react-datepicker__navigation {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .react-datepicker__current-month {
+      font-size: 14px;
+    }
+      .dashboard-dateicon {
+      width: 6px;
+    height: 5px;
+    margin-left: 53%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .react-datepicker__navigation {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .react-datepicker__current-month {
+      font-size: 12px;
+    }
+  
+    .dashboard-dateicon {
+      width: 6px;
+      height: 5px;
+      margin-left: 53%;
+    }
+  }
+  
+  

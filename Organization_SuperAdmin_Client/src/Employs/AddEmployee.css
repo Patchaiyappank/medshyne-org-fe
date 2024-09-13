@@ -1,0 +1,187 @@
+.employee-overall{
+    width: 80%;
+    padding-left:3%;
+}
+.employee-hedline{
+    width: 1080px;
+}
+.btn-header{
+    width:89%;
+height:45px;
+padding: 13px 40px 13px 5px;
+gap: 21px;
+border-radius: 10px ;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+background-color: #FFFFFF;
+border: 2px solid #0089FF;
+text-align: center;
+line-height: 1.1;
+font-size: 18px;
+}
+.btn-footer{
+    width: 89%;
+    height: 35px;
+    padding: 10px 47px 10px 47px;
+    gap: 10px;
+    border-radius: 47px ;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;  
+    border: 1px solid #0089FF;
+    color: #0089FF;
+    line-height: 1;
+}
+
+
+
+
+.employee-input:focus{
+    outline: none;
+    border: none;
+}
+@media (max-width: 575.98px) {
+    
+    .custom-mobile-col {
+        flex: 0 0 33%;
+        max-width: 33%;
+        
+    }
+   
+    .row {
+        flex-direction: row; 
+    }
+}
+.custom-form-group .form-label {
+    margin-bottom: 0;
+    margin-left:-10px;
+   
+   }
+   .custom-form-group1 .form-label {
+    margin-bottom: 0;
+    margin-left:-28px;
+   
+   }
+   
+    .custom-form-group1 .form-control {
+    margin-bottom: 5px;
+    margin-left:-28px;
+   } 
+   .custom-form-group .form-control {
+    margin-bottom: 5px;
+    margin-left:-10px;
+   
+   } 
+   .custom-form-group .form-control:focus{
+    outline: none;
+    border: none;
+   }
+  
+   
+   inbuttonput[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    display: none;
+   }
+   
+   
+   .custom-date-input {
+    
+
+    
+   }
+   
+   .widthsss{
+    max-width: 414px;
+    width: 414px;
+    font-size: 14px;
+   }
+   .view_access-btn-header.selected-view_access {
+    background-color: rgb(204, 197, 197);
+    color: white;
+}
+.edit_access-btn-header.selected-edit_access {
+    background-color: rgb(204, 197, 197);
+    color: white;
+}
+.delete_access-btn-header.selected-delete_access {
+    background-color: rgb(204, 197, 197);
+    color: white;
+}
+.home_page_access-btn-footer.selected-home_page_access {
+    background-color: #0089FF;
+    color: white;
+}
+.inventory_page_access-btn-footer.selected-inventory_page_access {
+    background-color: #0089FF;
+    color: white;
+}
+.support_page_access-btn-footer.selected-support_page_access {
+    background-color: #0089FF;
+    color: white;
+}
+.organization_page_access-btn-footer.selected-organization_page_access {
+    background-color: #0089FF;
+    color: white;
+}
+.regional_manager_page_access-btn-footer.selected-regional_manager_page_access {
+    background-color: #0089FF;
+    color: white;
+}
+.doctor_page_access-btn-footer.selected-doctor_page_access {
+    background-color: #0089FF;
+    color: white;
+}
+.settings_page_access-btn-footer.selected-settings_page_access {
+    background-color: #0089FF;
+    color: white;
+}
+   /* @media (min-width: 768px) and (max-width: 979px) {
+    .employee-overall{
+        width: 690px;
+        padding-left:20px;
+
+    }
+    .employee-hedline{
+        width: 690px;
+    }
+    
+    .cards {
+      font-size:10px !important;
+     
+    }
+
+    .btn-header{
+   
+    font-size: 9px !important;
+    }
+    .btn-footer{
+        font-size: 9px !important;
+    }
+   } */
+   @media (max-width: 575.98px) {
+
+    .custom-mobile-col {
+        flex: 0 0 33%;
+        max-width: 33%;
+
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 890px) {
+   
+    .employee-overall {
+      margin-left: 50px; /* Adjust margin to align with the reduced sidebar */
+      padding: 20px; /* Increase padding for better spacing */
+      width: calc(100% - 16px); /* Adjust content width */
+    }
+  .employee-content{
+    
+  }
+  .custom-mobile-col {
+    flex: 0 0 39%;
+    max-width: 39%;
+
+}
+    
+  }
+  

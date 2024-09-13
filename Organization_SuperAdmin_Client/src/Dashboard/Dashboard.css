@@ -1,0 +1,173 @@
+*{
+  font-family: inter;
+}
+
+
+#dashboard-dropdown-timeframe-button{
+  margin-left: 20px;
+ width: 95%;
+ background-color: white ;
+ color: black;
+ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+ border:  #ccc;
+ border-radius:25px;
+ font-size: 12px;
+ margin-top: 1%;
+text-align: start;
+padding-top: 7px;
+padding-bottom:7px;
+}
+
+
+#dropdown-topic-button{
+  margin-left: 10px;
+  width: 95%;
+  background-color: white ;
+  color: black;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  border:  #ccc;
+ 
+  border-radius:25px;
+  font-size: 12px;
+  margin-top: 1%;
+ text-align: start;
+ padding-top: 7px;
+ padding-bottom:7px;
+ }
+ 
+ .dropdown-toggle::after {
+  float: right;
+  margin-top: 2.5%;    
+  }
+  
+  .Dashboard-container {
+    margin-right: 0px;
+    width: 84.2%;
+  }
+  
+  .Dashboard-home {
+    font-weight: bolder;
+    padding-top: 20px;
+    margin-left: 19px;
+  }
+  
+
+
+  .Dashboard-dropdown-button-custom .dropdown-toggle::after {
+    float: right;
+    margin-top: 2.5%;
+    margin-right: 2%;
+  }
+  
+  .Dashboard-dropdown-button-custom .dropdown-menu {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: #ccc;
+    font-weight: bolder;
+    border-radius: 25px;
+    text-align: start;
+  }
+  
+  .Dashboard-custom-card {
+    border-radius: 10px;
+    height: 120px; /* Adjust the height as needed */
+    border: none;
+  }
+  
+  .Dashboard-custom-card-body {
+    border-radius: 10px;
+    padding: 1rem; /* Adjust padding if needed */
+  }
+  
+  .Dashboard-card-title {
+    font-size: 11px;
+  }
+  
+  .Dashboard-card-text {
+    font-size: 16px;
+    margin-top: 5%;
+    font-weight: 700;
+  }
+  
+  .Dashboard-chart-container {
+    height: 70%;
+    width: 100%;
+    padding: 0; /* Ensure no padding that might cause background effects */
+  }
+  
+  .Dashboard-chartbar {
+    border: #ccc;
+    width: 96%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Dashboard-live-appointment {
+    font-weight: bold;
+    margin-top: 2%;
+  }
+  
+  .Dashboard-see-all {
+    width: 110px;
+    margin-top: 2%;
+  }
+  
+  .Dashboard-table-container {
+    margin-top: 10px;
+  }
+  
+
+.dropdown-menu {
+  width: 100%;
+ background-color: white;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ border:  #ccc;
+ font-weight: bolder;
+ border-radius:25px;
+text-align: start;
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+.dashboard-custom-card {
+  border-radius: 10px;
+  height: 120px; /* Adjust the height as needed */
+  border: none;
+}
+
+.dashboard-custom-card-body {
+  border-radius: 10px;
+  padding: 1rem; /* Adjust padding if needed */
+}
+.chart-container {
+  height: 70%;
+  width: 100%;
+ 
+  padding: 0; /* Ensure no padding that might cause background effects */
+}
+.chartbar{
+  border:  #ccc;
+  width: 96%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}  
+#dropdown-month-button {
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: 600;
+ 
+}

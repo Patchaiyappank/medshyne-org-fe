@@ -1,0 +1,60 @@
+.add-doctor-button {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   .action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+   }
+   
+   .action-icon {
+    width: 30px; 
+    height: 30px;
+   }
+   .action-header {
+    display: none; /* Hide the action column header */
+   }
+   /* DoctorList.css */
+   
+   .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+   }
+   
+   
+   
+   .button-icon {
+    /* Adjust the spacing between the icon and the text */
+    width: 20px; /* Adjust the size of the icon */
+    height: 20px;
+    margin-right: 5px;
+   }
+   
+   
+   
+   .action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+   }
+

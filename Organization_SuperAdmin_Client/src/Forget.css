@@ -1,0 +1,85 @@
+*{
+    font-family: inter;
+}
+
+.forget-password-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin-left: 60px;
+  }
+  
+  .forget-password-image {
+    flex: 1;
+    display: flex;
+    
+  }
+  
+  .forget-password-card {
+   
+    padding : 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 43%;
+    margin-right: 70px;
+    box-shadow: 0 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+padding-bottom: 60px;
+  }
+  input {
+    width: 480px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+    border: none;
+    border-radius: 8px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color:#0089FF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 5%;
+
+  }
+ .confirmeye{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+ }
+ .forget-password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-password{
+  position: relative;
+  margin-top: -5px;
+}
+.new-password input {
+  width: 100%;
+  padding: 2%;
+  padding-right: 10%; 
+  box-sizing: border-box;
+  margin-top: -10%;
+}
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  margin-top: -42px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.eye-icon img {
+  width: 20px;
+  height: 15px;
+ 
+}

@@ -1,0 +1,440 @@
+/* Global Styles */
+
+
+  .studentlist-container container
+  {
+margin-left: 20%;
+  }
+  .studentlist-organization-name {
+    margin-left: 5rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Main card styling */
+  
+  .studentlist-main-card {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 89%;
+  }
+  
+  .studentlist-sub-card {
+    background-color: #FFFFFF;
+    color: #464E5F;
+    max-width: 100% !important;
+    border: none;
+  }
+  
+  /* Table styling */
+  
+  .studentlist-table {
+    max-width: 100% !important;
+    border-collapse: collapse;
+  }
+  
+  .studentlist-th
+  {
+    font-size: 13px;
+  }
+  .studentlist-name,
+  .studentlist-td {
+    text-align: center;
+    color: #464E5F !important;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+ 
+  }
+
+  
+  /* Search, filter, and add student buttons */
+  
+  .studentlist-search-filter-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .studentlist-search-input {
+    flex: 2;
+    width: 400px;
+    height: 2.3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Search input container styling */
+  
+  .studentlist-search-input-container {
+    position: relative;
+    flex: 2;
+  }
+  
+  .studentlist-search-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+  
+  .studentlist-add-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 12px;
+    border-radius: 50px;
+    background-color: #0089FF;
+    color: #fff;
+    max-width: 100%;
+    border: none;
+    white-space: nowrap;
+  }
+  
+  .studentlist-filter-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;height: 2.3rem;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    color: #061B2E;
+    border: 2px solid #EAEEF4;
+  }
+  
+  /* Make the buttons appear on a single line */
+  
+  .studentlist-search-filter-add>* {
+    margin-right: 0.5rem;
+  }
+  
+  .studentlist-search-filter-add>*:last-child {
+    margin-right: 0;
+  }
+  
+  /* Icon button styling */
+  
+  .studentlist-icon-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-left: 0.5rem;
+  }
+  
+  .studentlist-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+  }
+  
+  /* Align title and buttons on the same line */
+  
+  /* .align-items-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+   */
+  .list-title {
+    flex: 1;
+  }
+  
+  /* Pagination styling */
+  
+  .studentlist-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .studentlist-pagination-arrow {
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    color: #697077;
+  }
+  
+  .studentlist-pagination-item {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #697077;
+  }
+  
+  .studentlist-pagination-item.active {
+    background-color: #B2DCFF;
+    color: #0089FF;
+    border-radius: 50%;
+  }
+  
+  .studentlist-pagination-ellipsis {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  
+  .studentlist-prevoius-arrow,
+  .studentlist-next-arrow {
+    font-size: 16px;
+  }
+  
+  /* Ensure the default image is displayed correctly */
+  
+  .studentlist-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .studentlist-tds {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    color: #464E5F;
+    border: none;
+  }
+
+
+  
+  
+
+  
+  /* Extra small screens (xs) */
+  @media only screen and (max-width: 767px) {
+    .studentlist-main-card {
+      width: 90%;
+    }
+    .studentlist-sub-card {
+      max-width: 90% !important;
+    }
+    .studentlist-search-input {
+      width: 150px;
+    }
+    .studentlist-search-filter-add {
+      flex-direction: column;
+    }
+    .studentlist-search-input-container {
+      width: 100%;
+    }
+    .studentlist-add-button,
+    .studentlist-filter-button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Mobile screens (xs) */
+  @media only screen and (min-width: 900px) and (max-width: 1000px) {
+    .studentlist-main-card {
+      width: 100%;
+    }
+    .studentlist-sub-card {
+      max-width: 100% !important;
+    }
+    .studentlist-search-input {
+      width: 200px;
+    }
+.studentlist-heading{
+    font-size: 1.2rem;
+}
+    
+    .studentlist-search-filter-add {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.2rem;
+        margin-bottom: 0.5rem;
+      }
+    .studentlist-search-input-container {
+      width: 100%;
+    }
+    .studentlist-add-button,
+    .studentlist-filter-button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+
+  /* Medium screens (min-width: 992px) and (max-width: 1199px) */
+  
+  @media (min-width: 800px) and (max-width: 990x) {
+    .studentlist-main-card {
+        width: 100%;
+      }
+      .studentlist-sub-card {
+        max-width: 100% !important;
+      }
+      .studentlist-search-input {
+        width: 100px;
+      }
+  .studentlist-heading{
+      font-size: 1.2rem;
+  }
+      
+      .studentlist-search-filter-add {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 0.2rem;
+          margin-bottom: 0.5rem;
+        }
+      .studentlist-search-input-container {
+        width: 10%;
+      }
+      .studentlist-add-button,
+      .studentlist-filter-button {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+  }
+  
+  /* Small screens (min-width: 768px) and (max-width: 991px) */
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .studentlist-main-card {
+        width: 100%;
+      }
+      .studentlist-sub-card {
+        max-width: 100% !important;
+      }
+      .studentlist-search-input {
+        width: 200px;
+      }
+  .studentlist-heading{
+      font-size: 1.2rem;
+  }
+      
+      .studentlist-search-filter-add {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 0.2rem;
+          margin-bottom: 0.5rem;
+        }
+      .studentlist-search-input-container {
+        width: 100%;
+      }
+      .studentlist-add-button,
+      .studentlist-filter-button {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+  }
+  
+  /* Extra small screens (min-width: 480px) and (max-width: 767px) */
+  
+  @media (min-width: 768px) and (max-width: 890px) {
+
+    .studentlist-main-card {
+      width: 100%;
+      margin-right: 0;
+    }
+    .studentlist-sub-card {
+      width: 100%;
+      padding: 0.8rem;
+    }
+    .studentlist-table {
+      font-size: 0.2rem;
+      width: 80%;
+    }
+    .studentlist-search-input {
+      width: 200px;
+    }
+    .studentlist-add-button {
+      padding: 0.2rem 0.8rem;
+      font-size: 1rem;
+    }
+    .studentlist-filter-button {
+      padding: 0.2rem 1rem;
+      font-size: 1rem;
+    }
+    .studentlist-icon-button {
+      margin-left: 0.2rem;
+    }
+    .studentlist-icon {
+      width: 10px;
+      height: 10px;
+    }
+    .studentlist-heading{
+        font-size: 1rem;
+    }
+    
+  }
+
+  @media (min-width: 580px) and (max-width: 767px) {
+
+    .studentlist-main-card {
+      max-width: 100%;
+      margin-right: 0;
+    }
+    .studentlist-sub-card {
+      max-width: 100%;
+      padding: 0.8rem;
+    }
+    .studentlist-table {
+      font-size: 0.2rem;
+      width: 80%;
+    }
+    .studentlist-search-input {
+      width: 150px;
+      height: 0.8rem;
+    }
+    .studentlist-add-button {
+      padding: 0.2rem 0.5rem;
+      font-size: 0.7rem;
+    }
+    .studentlist-filter-button {
+      padding: 0.2rem 0.5rem;
+      font-size: 0.5rem;
+    }
+    .studentlist-icon-button {
+      margin-left: 0.2rem;
+    }
+    .studentlist-icon {
+      width: 10px;
+      height: 10px;
+    }
+    .studentlist-th,
+    .studentlist-td {
+      font-size: 0.6rem;
+      padding: 0.1rem;
+      border: none;
+      color: #464E5F;
+    }
+    .studentlist-tds {
+        font-size: 0.6rem;
+        padding: 0.1rem;
+        border: none;
+        color: #464E5F;
+      }
+      .studentlist-name{
+        font-size: 0.6rem;
+      }
+      .studentlist-search-icon{
+        height: 8px;
+        width: 8px;
+      }
+      .studentlist-heading{
+        font-size: 1rem;
+    }
+  }
+  
+  

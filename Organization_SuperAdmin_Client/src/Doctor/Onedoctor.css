@@ -1,0 +1,18 @@
+.detailsone {
+    position: relative;
+    width: 237px; /* Match the image width */
+    height: 237px; /* Match the image height */
+   }
+   
+   .upload-button {
+    position: absolute;
+    bottom: 10px;
+    left: 42%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+   }

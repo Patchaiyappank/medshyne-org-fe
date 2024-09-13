@@ -1,0 +1,222 @@
+.add-onboardunpaid-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  margin-right: -15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.popup-main-container
+{
+  justify-content: space-between;
+  border-bottom: none;
+}
+
+.popup-send-notify{
+  color:#7E92A2;
+  font-weight: 700;
+  font-size: large;
+}
+.popup-message:focus {
+border:  1px solid #e6e7e9;
+  box-shadow: none; 
+}
+.popup-footer
+{
+  border-top: none;
+}
+.popup-message-block
+{
+  color: #061B2E;
+  font-weight: 600;
+
+}
+.popup-close
+{
+  width: 25px;
+  align-items: end;
+ 
+}
+.add-onboardunpaid-button:hover
+{
+  opacity: 70%;
+}
+.onboardunpaid-complete {
+  color: #22C55E;
+}
+
+.unpaid-pending-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 7px;
+  background-color: #fff7e6; /* Light yellow background */
+  border-radius: 1.5rem; /* Rounded corners */
+  color: #ffa726; /* Orange text color */
+  font-weight: normal;
+  font-size: 12px;
+}
+
+
+
+.onboardunpaid-table-container-innercell {
+
+  height: auto;
+
+}
+
+.onboardunpaidingList-tableRow {
+  font-size: 13px;
+  position: sticky;
+  top: 0;
+}
+
+.onboardunpaid-table-container {
+  background-color: white;
+  margin-left: 20px !important;
+
+  height: auto;
+  font-size: 12px !important;
+  padding: 20px 5px 20px 20px;
+  margin-top: 20px;
+}
+
+.onboardunpaid-table-border {
+  border-radius: 20px !important;
+}
+
+.onboardunpaid-action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.onboardunpaid-action-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.onboardunpaid-action-header {
+  display: none; /* Hide the action column header */
+}
+
+.onboardunpaid-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0px 2px;
+}
+
+.onboardunpaid-button-icon {
+  width: 20px; /* Adjust the size of the icon */
+  height: 20px;
+  margin-right: 5px;
+}
+
+.onboardunpaidingList-tableRow th:last-child {
+  width: 50px; /* Adjust this value to your desired width */
+  min-width: 50px; /* Ensures the width doesn't go below this value */
+  max-width: 50px; /* Ensures the width doesn't go above this value */
+}
+
+.onboardunpaid-text-muted {
+  color: #B5B5C3;
+  font-size: 11px;
+}
+
+.onboardunpaiding-table-details {
+  color: #464E5F !important;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.onboardunapid-profile
+{
+  width: 40px;
+  height: 45px;
+}
+.onboardunpaiding-status {
+  font-size: 100%;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.onboardunpaidingList-tableRow th,
+.onboardunpaidingList-tableRow td {
+  width: 20%; /* Set a base width for each column */
+  padding: 8px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1070px) {
+
+  .onboardunapid-profile
+{
+  width: 30px;
+  height: 35px;
+}
+  .onboardunpaiding-table-details,
+  .onboardunpaiding-status,
+  .onboardunpaid-text-muted {
+    font-size: 10px;
+  }
+  .onboardunpaidingList-tableRow
+  {
+    font-size: 10px;
+  }
+  .onboardunpaid-action-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .onboardunpaidingList-tableRow {
+    font-size: 12px !important;
+  }
+
+  .add-onboardunpaid-button {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .onboardunapid-profile
+{
+  width: 25px;
+  height: 30px;
+}
+  .unpaid-pending-status {
+    font-size: 80%;
+  }
+
+  .onboardunpaidingList-tableRow th,
+  .onboardunpaidingList-tableRow td {
+    width: 15%;
+    padding: 6px;
+    text-align: left;
+  }
+
+  .onboardunpaid-head-container {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .onboardunpaid-table-container {
+    margin-left: 0px !important;
+    padding: 15px 5px 15px 10px;
+  }
+
+  .onboardunpaid-action-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .add-onboardunpaid-button {
+    font-size: 10px;
+  }
+}
+
+

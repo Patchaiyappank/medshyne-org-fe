@@ -1,0 +1,450 @@
+/* Global Styles */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F9F9F9;
+  }
+  
+  .stafflist-organization-name {
+
+    font-size: 1.5rem;
+  }
+  
+  /* Main card styling */
+  
+  .stafflist-main-card {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 20px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+ 
+    width: 100%;
+    height: 100%;
+  }
+  
+  .stafflist-sub-card {
+    background-color: #FFFFFF;
+    color: #464E5F;
+    height: 100%;
+    max-width: 100% !important;
+    border: none;
+  }
+  
+  /* Table styling */
+  
+  .stafflist-table {
+    max-width: 100% !important;
+    border-collapse: collapse;
+  }
+  .stafflist-head
+  {
+    font-size: 13px !important;
+  }
+
+  .stafflist-td {
+    text-align: center;
+
+    border: none;
+    color: #464E5F !important;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .stafflist-th {
+    background-color: #FAFAFA !important;
+    color: #B5B5C3;
+    font-weight: bold;
+  }
+  
+  /* Search, filter, and add staff buttons */
+  
+  .stafflist-search-filter-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .stafflist-search-input {
+    flex: 2;
+    width: 450px;
+height: 2.3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Search input container styling */
+  
+  .stafflist-search-input-container {
+    position: relative;
+    flex: 2;
+  }
+  
+  .stafflist-search-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+  
+  .stafflist-add-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 50px;
+    font-size: 12px;
+    background-color: #0089FF;
+    color: #fff;
+    max-width: 100%;
+    border: none;
+    white-space: nowrap;
+  }
+  
+  .stafflist-filter-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    color: #061B2E;
+    border: 2px solid #EAEEF4;
+  }
+  
+  /* Make the buttons appear on a single line */
+  
+  .stafflist-search-filter-add>* {
+    margin-right: 0.5rem;
+  }
+  
+  .stafflist-search-filter-add>*:last-child {
+    margin-right: 0;
+  }
+  
+  /* Icon button styling */
+  
+  .stafflist-icon-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-left: 0.5rem;
+  }
+  
+  .stafflist-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+  }
+  
+  /* Align title and buttons on the same line */
+  
+  /* .align-items-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  } */
+  
+  .list-title {
+    flex: 1;
+  }
+  
+  /* Pagination styling */
+  
+  .stafflist-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .stafflist-pagination-arrow {
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    color: #697077;
+  }
+  
+  .stafflist-pagination-item {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #697077;
+  }
+  
+  .stafflist-pagination-item.active {
+    background-color: #B2DCFF;
+    color: #0089FF;
+    border-radius: 50%;
+  }
+  
+  .stafflist-pagination-ellipsis {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  
+  .stafflist-prevoius-arrow,
+  .stafflist-next-arrow {
+    font-size: 16px;
+  }
+  
+  /* Ensure the default image is displayed correctly */
+  
+  .stafflist-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .stafflist-tds {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    color: #464E5F;
+    border: none;
+  }
+
+.stafflist-name
+{
+  font-size: 12px;
+font-weight: 500;
+}
+  
+  
+
+  
+  /* Extra small screens (xs) */
+  @media only screen and (max-width: 767px) {
+    .stafflist-main-card {
+      width: 90%;
+    }
+    .stafflist-sub-card {
+      max-width: 90% !important;
+    }
+    .stafflist-search-input {
+      width: 150px;
+    }
+    .stafflist-search-filter-add {
+      flex-direction: column;
+    }
+    .stafflist-search-input-container {
+      width: 100%;
+    }
+    .stafflist-add-button,
+    .stafflist-filter-button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Mobile screens (xs) */
+  @media only screen and (min-width: 900px) and (max-width: 1000px) {
+    .stafflist-main-card {
+      width: 100%;
+    }
+    .stafflist-sub-card {
+      max-width: 100% !important;
+    }
+    .stafflist-search-input {
+      width: 200px;
+    }
+.stafflist-heading{
+    font-size: 1.2rem;
+}
+    
+    .stafflist-search-filter-add {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.2rem;
+        margin-bottom: 0.5rem;
+      }
+    .stafflist-search-input-container {
+      width: 100%;
+    }
+    .stafflist-add-button,
+    .stafflist-filter-button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+
+  /* Medium screens (min-width: 992px) and (max-width: 1199px) */
+  
+  @media (min-width: 800px) and (max-width: 990x) {
+    .stafflist-main-card {
+        width: 100%;
+      }
+      .stafflist-sub-card {
+        max-width: 100% !important;
+      }
+      .stafflist-search-input {
+        width: 100px;
+      }
+  .stafflist-heading{
+      font-size: 1.2rem;
+  }
+      
+      .stafflist-search-filter-add {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 0.2rem;
+          margin-bottom: 0.5rem;
+        }
+      .stafflist-search-input-container {
+        width: 10%;
+      }
+      .stafflist-add-button,
+      .stafflist-filter-button {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+  }
+  
+  /* Small screens (min-width: 768px) and (max-width: 991px) */
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .stafflist-main-card {
+        width: 100%;
+      }
+      .stafflist-sub-card {
+        max-width: 100% !important;
+      }
+      .stafflist-search-input {
+        width: 200px;
+      }
+  .stafflist-heading{
+      font-size: 1.2rem;
+  }
+      
+      .stafflist-search-filter-add {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 0.2rem;
+          margin-bottom: 0.5rem;
+        }
+      .stafflist-search-input-container {
+        width: 100%;
+      }
+      .stafflist-add-button,
+      .stafflist-filter-button {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+  }
+  
+  /* Extra small screens (min-width: 480px) and (max-width: 767px) */
+  
+  @media (min-width: 768px) and (max-width: 890px) {
+
+    .stafflist-main-card {
+      width: 100%;
+      margin-right: 0;
+    }
+    .stafflist-sub-card {
+      width: 100%;
+      padding: 0.8rem;
+    }
+    .stafflist-table {
+      font-size: 0.2rem;
+      width: 80%;
+    }
+    .stafflist-search-input {
+      width: 200px;
+    }
+    .stafflist-add-button {
+      padding: 0.2rem 0.8rem;
+      font-size: 1rem;
+    }
+    .stafflist-filter-button {
+      padding: 0.2rem 1rem;
+      font-size: 1rem;
+    }
+    .stafflist-icon-button {
+      margin-left: 0.2rem;
+    }
+    .stafflist-icon {
+      width: 10px;
+      height: 10px;
+    }
+    .stafflist-heading{
+        font-size: 1rem;
+    }
+    
+  }
+
+  @media (min-width: 580px) and (max-width: 767px) {
+
+    .stafflist-main-card {
+      max-width: 100%;
+      margin-right: 0;
+    }
+    .stafflist-sub-card {
+      max-width: 100%;
+      padding: 0.8rem;
+    }
+    .stafflist-table {
+      font-size: 0.2rem;
+      width: 80%;
+    }
+    .stafflist-search-input {
+      width: 150px;
+      height: 0.8rem;
+    }
+    .stafflist-add-button {
+      padding: 0.2rem 0.5rem;
+      font-size: 0.7rem;
+    }
+    .stafflist-filter-button {
+      padding: 0.2rem 0.5rem;
+      font-size: 0.5rem;
+    }
+    .stafflist-icon-button {
+      margin-left: 0.2rem;
+    }
+    .stafflist-icon {
+      width: 10px;
+      height: 10px;
+    }
+    .stafflist-th,
+    .stafflist-td {
+      font-size: 0.6rem;
+      padding: 0.1rem;
+      border: none;
+      color: #464E5F;
+    }
+    .stafflist-tds {
+        font-size: 0.6rem;
+        padding: 0.1rem;
+        border: none;
+        color: #464E5F;
+      }
+      .stafflist-name{
+        font-size: 0.6rem;
+      }
+      .stafflist-search-icon{
+        height: 8px;
+        width: 8px;
+      }
+      .stafflist-heading{
+        font-size: 1rem;
+    }
+  }
+  
+  

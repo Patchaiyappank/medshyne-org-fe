@@ -1,0 +1,397 @@
+
+
+.add-onboardList-button {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    margin-right: -15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+   }
+   .add-onboardList-button:hover{
+    opacity: 70%;
+   }
+   .onboardList-complete
+   {
+    color:#22C55E;
+   }
+
+
+.onboardList-table-border{
+  vertical-align: middle;
+  padding: 10px 10px !important;
+}
+.onboardList-table-container-innercell
+{
+  height: auto;
+
+}
+   .onboardListingList-tableRow
+   {
+    font-size: 13px;
+    position: sticky;
+    top: 0;
+
+   }
+
+
+.onboardList-table-container
+{
+ background-color: white;
+    margin-left: 30px !important;
+    height: auto;
+    font-size: 12px !important;
+    padding: 10px 5px 10px 10px;
+    margin-top: 20px;
+    width: 97%;
+}
+
+.onboardList-table-border
+{
+    border-radius: 20px !important;
+}
+
+   .onboardList-action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+   }
+   
+   .onboardList-action-icon {
+    width: 25px; 
+    height: 25px;
+   }
+   .onboardList-action-header {
+    display: none; /* Hide the action column header */
+   }
+   /* DoctorList.css */
+   
+   .onboardList-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0px 2px;
+   }
+   
+   .onboardList-button-icon {
+    /* Adjust the spacing between the icon and the text */
+    width: 20px; /* Adjust the size of the icon */
+    height: 20px;
+    margin-right: 5px;
+   }
+
+
+/* Pagination */
+
+.onboardListpagination-page.active {
+  background-color: #B2DCFF;
+  color: #067aee;
+  border-radius: 50%;
+  font-weight: 500;
+  padding: 12px;
+  width: 18px;
+  margin-top: -14px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+   
+   .onboardListpagination-page
+{
+  height:28px;
+  width: 10px;
+  margin-top: -14px;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 3px;
+  border: 50% solid #ccc;
+  font-size: 12px;
+  margin-left: 20px;
+  flex-direction: row;
+}
+
+.onboardList-ellipsis {
+    margin-right: 10px; 
+  }
+
+  .onboardList-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+  }
+
+  .onboardList-pagination-arrow {
+    cursor: pointer;
+    margin-right: 0px;
+    color: #697077;
+    font-size: 13px; 
+    }
+
+    .onboardList-prevoius-arrow
+{
+  font-size: 20px;
+  margin-right: 10px;
+  color:#697077;
+}
+.onboardListingList-tableRow th:last-child
+{
+  width: 50px; /* Adjust this value to your desired width */
+  min-width: 50px; /* Ensures the width doesn't go below this value */
+  max-width: 50px; /* Ensures the width doesn't go above this value */
+}
+.onboardlsit-profile
+{
+  width: 40px;
+  height: 45px;
+}
+.onboardList-pagination-pages {
+    display: flex;
+    color: #697077;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+
+.onboardList-text-muted
+{
+ color: #B5B5C3; 
+ font-size: 11px;
+}
+  .onboardList-next-arrow
+{
+  margin-left: 10px; 
+  font-size: 20px !important;
+  color:#697077;
+}
+.onboardListing-table-details
+{
+  color: #464E5F !important;
+   font-size: 12px;
+    font-weight: 500;
+padding: 2px !important;
+
+}
+
+.onboardlsit-profile-container
+{
+  padding: 2px !important;
+}
+
+.onboardList-status
+{
+  font-size: 12.5px;
+
+}
+
+.onboardListing-status
+{
+  font-size: 100%;
+  font-weight: bold;
+ white-space: nowrap;
+}
+.onboardListingList-tableRow th,
+.onboardListingList-tableRow td {
+  width: 20%; /* Set a base width for each column */
+  padding: 6px;
+  text-align: left;
+}
+
+
+@media screen and (min-width:961px) and (max-width: 1110px) {
+  .onboardList-status
+  {
+    font-size: 12px;
+  }
+.onboardList-text-muted
+{
+  font-size: 10px;
+}
+
+  .onboardListing-table-details
+{
+font-size: 12px;
+padding: 2px !important;
+}
+.onboardList-status
+{
+  font-size: 12px;
+}
+.onboardListing-status{
+  font-size: 12px;
+}
+.onboardList-onboardList-text-muted
+{
+  font-size: 10px;
+}
+.onboardList-action-icon
+{
+  width: 15px;
+  height: 15px;
+}
+.onboardListingList-tableRow
+{
+  font-size: 12px !important;
+}
+.onboardlsit-profile-container
+{
+  padding: 2px !important;
+}
+
+}
+
+@media screen and (min-width:821px) and (max-width: 960px)
+{
+
+  .onboardListingList-tableRow th,
+  .onboardListingList-tableRow td {
+   width: 10%;
+    padding: 2px !important;
+   
+  }
+
+ .onboardlist-profile-container
+ {
+  padding: 2px !important;
+
+ }
+  .onboardList-status
+  {
+    font-size: 11px;
+  }
+
+.onboardList-text-muted
+{
+  font-size: 10px;
+}
+
+  .onboardListing-table-details
+{
+font-size: 11px;
+padding: 4px !important;
+
+}
+
+.onboardListing-status{
+  font-size: 11px;
+}
+.onboardList-onboardList-text-muted
+{
+  font-size: 10px;
+}
+
+
+.onboardList-head-container
+{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.onboardList-table-container
+{
+  margin-left: 11px !important;
+}
+.onboardListingList-tableRow
+{
+  font-size: 11px !important;
+  padding: 1px !important;
+}
+.onboardList-status
+{
+  font-size: 8px;
+}
+
+.onboardListing-table-details
+{
+  padding: 2px !important;
+}
+}
+
+@media screen and (max-width: 820px)
+{
+
+  .onboardListingList-tableRow th,
+  .onboardListingList-tableRow td {
+   width: 8%;
+    padding: 2px !important;
+   
+  }
+
+ .onboardlist-profile-container
+ {
+  padding: 2px !important;
+
+ }
+  .onboardList-status
+  {
+    font-size: 9px;
+  }
+
+.onboardList-text-muted
+{
+  font-size: 9px;
+}
+
+  .onboardListing-table-details
+{
+font-size: 9px;
+padding: 2px !important;
+
+}
+
+.onboardListing-status{
+  font-size: 9px;
+}
+.onboardList-onboardList-text-muted
+{
+  font-size: 9px;
+}
+
+
+.onboardList-head-container
+{
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.onboardList-table-container
+{
+  margin-left: 9px !important;
+}
+.onboardListingList-tableRow
+{
+  font-size: 9px !important;
+  padding: 1px !important;
+}
+.onboardList-status
+{
+  font-size: 6px;
+}
+
+.onboardListing-table-details
+{
+  padding: 2px !important;
+}
+
+
+}
+
+@media screen and (max-width: 720px)
+{
+  .onboardListing-table-details {
+    word-break: break-word; 
+    overflow-wrap: break-word; /* Ensures that long words will break and wrap properly */
+    white-space: normal; 
+   
+  }
+  .onboardList-table-border
+  {
+    table-layout: fixed;
+    width: 180%;
+  }
+}

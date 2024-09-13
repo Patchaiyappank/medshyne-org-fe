@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  font-family: "Inter";
+  
+}
+.dashboard-chart-card{
+  width: 99%;
+  font-size: 12px;
+}
+.custom-dropdown-toggle::after {
+  float: right;
+  margin-top: 2.5%;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+}
+.dashboardyear:focus{
+border-color: white;
+box-shadow: none;
+font-size: 12px;
+}
+.dashboard-card-header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: none;
+  background-color: transparent;
+  margin-top: 2%;
+  font-size: 12px;
+}
+#dropdown-basic-button{
+  background-color:white;
+  border: none;
+  color: #0F2552;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.dashboard-revenue {
+  
+  color: #4D4D4D;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.dashboard-chart-container {
+  display: flex;
+  font-size: 12px;
+}
+
+.dashboard-y-axis {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 1px;
+  font-size: 12px;
+}
+
+.dashboard-y-axis-label {
+  height: 45px; /* Reduced height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.dashboard-chart {
+  display: flex;
+  flex-wrap: nowrap; /* Ensure items do not wrap */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  font-size: 12px;
+}
+
+.dashboard-month-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+  font-size: 12px;
+}
+
+.dashboard-vertical-progress {
+  width: 10px;
+  height: 137px; /* Reduced height */
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #e9ecef;
+  border-radius: 5rem;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.dashboard-vertical-progress .dashboard-progress-bar {
+  width: 100%;
+  background: linear-gradient(to top, #1B59F8, #4da3dc);
+  border-radius: 5rem;
+  font-size: 12px;
+}
+
+.dashboard-month-label {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+

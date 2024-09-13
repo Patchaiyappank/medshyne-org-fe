@@ -1,0 +1,302 @@
+.addorganization-main-container {
+    background-color: #f5f5f5 !important;
+    width: 100%;
+    height: 100vh;
+    font-size: 12px !important;
+    padding-right: 30px;
+    padding-left: 200px;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .addorganization-content-container {
+    background-color: white !important;
+    padding: 35px !important;
+    border-radius: 10px;
+    height: auto;
+margin-bottom: 20px !important;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 97%;
+ 
+  }
+  
+ .add-organization-head {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+ .add-organization-head3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #212121;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  
+  .addOrgan-image-container {
+    text-align: center;
+    width: 280px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 20px;
+    position: relative;
+  }
+
+  .addOrgan-upload-button {
+    position: absolute;
+    bottom: -15px;
+    left: 30%;
+  font-size: 12px;
+    background-color: #0089FF;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+   }
+
+  
+  .addOrgan-input {
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 13px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(245, 245, 245); 
+                              
+  }
+
+  .addOrgan-input-select {
+    border-radius: 8px;
+    padding: 8px;
+    width: 100%;
+    height: 39px;
+    font-size: 13px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(245, 245, 245); 
+                              
+  }
+
+  .addOrgan-input-select{
+    border: 1px solid rgb(245, 245, 245); 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+
+  .addOrgan-input:focus
+  {
+    border: 1px solid rgb(245, 245, 245); 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  } 
+  .addOrgan-select {
+    border-radius: 8px;
+    padding: 8px;
+font-size: 13px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(245, 245, 245);  
+    color: #697077; /* Set the text color */
+  }
+  .addOrgan-select:focus
+  {
+    border: 1px solid rgb(245, 245, 245); 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  } 
+
+  .addOrgan-password-wrapper {
+    position: relative;
+  }
+  
+
+ .addOrgan-eye-icon:hover{
+  color: rgb(112, 112, 112);
+ }
+
+  .addOrgan-eye-icon {
+    position: absolute;
+    right: 10px;
+    color: rgb(112, 112, 112);
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    cursor: pointer;
+  }
+
+
+  .addOrgan-savebtn {
+    width: 280px;
+    background-color: #0089ff;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 40px;
+    padding: 10px 25px 10px 25px;
+
+  }
+  
+  .addOrgan-hr {
+    border: none;
+    height: 1.5px;
+    background-color: #b8b5b5;
+    margin: 0;
+  }
+  
+  .addOrgan-hr1 {
+    border: none;
+    height: 2px;
+    background-color: #b8b5b5;
+    margin: 0;
+  }
+
+  div.selected-flag
+  {
+    background-color: white;
+    outline: none;
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 20px !important;
+  }
+.addOrgan-org-phone:focus, .addOrgan-org-phone .form-control:focus {
+
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.addOrgan-mobile 
+{
+  width: 100%;
+  height: 35px;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 9px;
+  font-size: 15px;
+  color: rgb(65, 64, 64);
+}
+
+
+.addOrgan-mobilephone {
+  height: 35px;
+  border-radius: 9px;
+  border: none;
+
+}
+
+    .addOrgan-org-phone .form-control{
+      width: 100% !important;
+    }
+ .addOrgan-uploadicon-container
+{
+  background-color:white;
+  display: flex;
+  height: 38px;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(245, 245, 245); 
+margin-top: 9px;
+}
+.react-tel-input .form-control
+{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(245, 245, 245); 
+  height: 40px;
+}
+.addOrgan-label-field{
+  font-size: 13px;
+  font-weight: normal;
+  color: rgb(2, 2, 2);
+  margin-bottom: 5px;
+  margin-top: -10px;
+}
+
+.addOrgan-imagelink-button
+{
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.addOrgan-imagelink-button:hover{
+  cursor: pointer;
+}
+
+.addOrgan-placeholder-text
+{
+font-size: 13px;
+color:grey;
+margin-top: 2px;
+}
+
+.addOrgan-image-upload
+{
+  background-color: white;
+z-index: 1000;
+margin-top: -14px;
+  border-radius: 5px;
+  padding: 3px;
+  width: 100% !important;
+  display: flex;
+}
+
+.addOrgan-upload-icon
+{
+z-index: 1000 !important;
+}
+
+.addOrgan-upload-image
+{
+  
+  width: 20px;
+  height: 20px;
+margin-top: -37px;
+margin-left: 8px;
+
+}
+.addOrgan-error
+{
+  font-size: 12px;
+}
+.addOrgan-upload-success
+{
+  margin-left: 9px;
+  font-size: 13px;
+  margin-top: -19px;
+  z-index: 100;
+  color: #697077;
+}
+
+
+.react-tel-input .form-control:focus{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(245, 245, 245); 
+}
+
+
+
+/* ADD */
+
+
+.react-tel-input .flag-dropdown
+{
+  border-right: none !important;
+  border: none !important;
+  margin-top: 5px;
+}
+
+
+@media screen and (max-width: 890px) {
+ .addorganization-main-container
+ {
+padding-left: 130px;
+ } 
+}
+

@@ -1,0 +1,479 @@
+.recoverystudents-staffs-name {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+
+/* Main card styling */
+
+.recoverystudents-main-card {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+ width: 100%;
+  height: auto;
+  margin-top: .5%;
+}
+
+.recoverystudents-sub-card {
+  background-color: #FFFFFF;
+  color: #464E5F;
+  max-width: 100% !important;
+  border: none;
+  margin-top: -1%;
+  height: auto ;
+  
+}
+.recoverystudents-table-container::-webkit-scrollbar
+{
+  display: none;
+}
+/* Table styling */
+/* .recoverystudents-table-container{
+  max-height: 280px;
+  overflow-y: auto !important;
+} */
+
+.recoverystudents-table {
+  max-width: 100% !important;
+  border-collapse: collapse;
+}
+
+
+.recoverystudents-td {
+  text-align: left;
+  padding: 0.5rem;
+  border: none !important;
+ 
+}
+
+
+.recoverystudents-table-head{
+  position: sticky !important;
+  top: 0;
+  z-index: 1000 !important;
+}
+
+/* Search, filter, and add student buttons */
+
+.recoverystudents-search-filter-add {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: .5rem;
+}
+
+.recoverystudents-search-input {
+  flex: 2;
+  width: 450px;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.recoverystudents-search-input:focus {
+  outline: none; /* Ensures there's no outline when focused */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Enhance the box-shadow on focus for better UX */
+}
+
+/* Search input container styling */
+
+.recoverystudents-search-input-container {
+  position: relative;
+  
+  flex: 2;
+}
+
+.recoverystudents-search-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+}
+
+.recoverystudents-add-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  background-color: #0089FF;
+  color: #fff;
+  max-width: 100%;
+  border: none;
+  white-space: nowrap;
+}
+
+.recoverystudents-filter-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  color: #061B2E;
+  border: 2px solid #EAEEF4;
+}
+
+/* Make the buttons appear on a single line */
+
+.recoverystudents-search-filter-add>* {
+  margin-right: 0.5rem;
+}
+
+.recoverystudents-search-filter-add>*:last-child {
+  margin-right: 0;
+}
+
+/* Icon button styling */
+
+.recoverystudents-icon-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: 0.5rem;
+}
+
+.recoverystudents-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+/* Align title and buttons on the same line */
+
+.recoverystudentsmain  {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-title {
+  flex: 1;
+}
+
+/* Pagination styling */
+
+.studentsListpagination-page.active {
+  background-color: #B2DCFF;
+  color: #067aee;
+  border-radius: 50%;
+  font-weight: 500;
+  padding: 12px;
+  width: 18px;
+  margin-top: -15%;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+   
+   .studentsListpagination-page
+{
+  height:28px;
+  width: 10px;
+  margin-top: -11%;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 3px;
+  border: 50% solid #ccc;
+  font-size: 12px;
+  margin-left: 20px;
+  flex-direction: row;
+}
+
+.studentsList-ellipsis {
+    margin-right: 10px; 
+  }
+
+  .studentsList-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+  }
+
+  .studentsList-pagination-arrow {
+    cursor: pointer;
+    margin-right: 0px;
+    color: #697077;
+    font-size: 13px; 
+    }
+
+    .studentsList-prevoius-arrow
+{
+  font-size: 20px;
+  margin-right: 10px;
+  color:#697077;
+}
+
+
+.studentsList-pagination-pages {
+    display: flex;
+    color: #697077;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+
+
+  .studentsList-next-arrow
+{
+  margin-left: 10px; 
+  font-size: 20px !important;
+  color:#697077;
+}
+
+/* Ensure the default image is displayed correctly */
+
+.recoverystudents-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.recoverystudents-tds {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  color: #464E5F;
+  border: none;
+}
+
+
+
+
+
+
+/* Extra small screens (xs) */
+@media only screen and (max-width: 767px) {
+  .recoverystudents-main-card {
+    width: 90%;
+  }
+  .recoverystudents-sub-card {
+    max-width: 90% !important;
+  }
+  .recoverystudents-search-input {
+    width: 150px;
+  }
+  .recoverystudents-search-filter-add {
+    flex-direction: column;
+  }
+  .recoverystudents-search-input-container {
+    width: 100%;
+  }
+  .recoverystudents-add-button,
+  .recoverystudents-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile screens (xs) */
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .recoverystudents-main-card {
+    width: 100%;
+  }
+  .recoverystudentsst-sub-card {
+    max-width: 100% !important;
+  }
+  .recoverystudents-search-input {
+    width: 200px;
+  }
+.recoverystudents-heading{
+  font-size: 1.2rem;
+}
+  
+  .recoverystudents-search-filter-add {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 0.2rem;
+      margin-bottom: 0.5rem;
+    }
+  .recoverystudents-search-input-container {
+    width: 100%;
+  }
+  .recoverystudents-add-button,
+  .recoverystudents-filter-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+/* Medium screens (min-width: 992px) and (max-width: 1199px) */
+
+@media (min-width: 800px) and (max-width: 990x) {
+  .recoverystudents-main-card {
+      width: 100%;
+    }
+    .recoverystudents-sub-card {
+      max-width: 100% !important;
+    }
+    .recoverystudents-search-input {
+      width: 100px;
+    }
+.recoverystudents-heading{
+    font-size: 1.2rem;
+}
+    
+    .recoverystudents-search-filter-add {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.2rem;
+        margin-bottom: 0.5rem;
+      }
+    .recoverystudents-search-input-container {
+      width: 10%;
+    }
+    .recoverystudents-add-button,
+    .recoverystudents-filter-button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+}
+
+/* Small screens (min-width: 768px) and (max-width: 991px) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .recoverystudents-main-card {
+      width: 100%;
+    }
+    .recoverystudents-sub-card {
+      max-width: 100% !important;
+    }
+    .recoverystudents-search-input {
+      width: 200px;
+    }
+.recoverystudents-heading{
+    font-size: 1.2rem;
+}
+    
+    .recoverystudents-search-filter-add {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.2rem;
+        margin-bottom: 0.5rem;
+      }
+    .recoverystudents-search-input-container {
+      width: 100%;
+    }
+    .recoverystudents-add-button,
+    .recoverystudents-filter-button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+}
+
+/* Extra small screens (min-width: 480px) and (max-width: 767px) */
+
+@media (min-width: 768px) and (max-width: 890px) {
+
+  .recoverystudents-main-card {
+    width: 100%;
+    margin-right: 0;
+  }
+  .recoverystudents-sub-card {
+    width: 100%;
+    padding: 0.8rem;
+  }
+  .recoverystudents-table {
+    font-size: 0.2rem;
+    width: 80%;
+  }
+  .recoverystudents-search-input {
+    width: 200px;
+  }
+  .recoverystudents-add-button {
+    padding: 0.2rem 0.8rem;
+    font-size: 1rem;
+  }
+  .recoverystudents-filter-button {
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+  }
+  .recoverystudents-icon-button {
+    margin-left: 0.2rem;
+  }
+  .recoverystudents-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .recoverystudents-heading{
+      font-size: 1rem;
+  }
+  
+}
+
+@media (min-width: 580px) and (max-width: 767px) {
+
+  .recoverystudents-main-card {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .recoverystudents-sub-card {
+    max-width: 100%;
+    padding: 0.8rem;
+  }
+  .studentslist-table {
+    font-size: 0.2rem;
+    width: 80%;
+  }
+  .recoverystudents-search-input {
+    width: 150px;
+    height: 0.8rem;
+  }
+  .srecoverystudents-add-button {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+  }
+  .recoverystudents-filter-button {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.5rem;
+  }
+  .recoverystudents-icon-button {
+    margin-left: 0.2rem;
+  }
+  .recoverystudents-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .recoverystudentsth,
+  .recoverystudents-td {
+    font-size: 0.6rem;
+    padding: 0.1rem;
+    border: none;
+    color: #464E5F;
+  }
+  .recoverystudents-tds {
+      font-size: 0.6rem;
+      padding: 0.1rem;
+      border: none;
+      color: #464E5F;
+    }
+    .recoverystudents-name{
+      font-size: 0.6rem;
+    }
+    .recoverystudents-search-icon{
+      height: 8px;
+      width: 8px;
+    }
+    .recoverystudents-heading{
+      font-size: 1rem;
+  }
+}

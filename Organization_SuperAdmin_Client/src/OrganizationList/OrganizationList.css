@@ -1,0 +1,72 @@
+
+.organization-table .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   }
+   
+   .organization-table .ml-3 {
+    margin-left: 1rem !important;
+   }
+
+   .organization-table th,
+   .organization-table td {
+    vertical-align: middle;
+   }
+   .organization-table {
+   
+    border-collapse: collapse;
+   }
+   
+   .organization-table th,
+   .organization-table td {
+    
+    border: none;
+    padding: 8px;
+   }
+   
+   .organization-table thead th {
+    
+    background-color: #f8f9fa;
+    font-weight: bold;
+   }
+   
+   .organization-table tbody tr:hover {
+   
+    background-color: #f1f1f1;
+   }
+   
+   .card-container {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff; 
+   }
+   .pagination-number {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: inherit;
+   }
+   
+   .pagination-number.active {
+    color: #0089FF;
+    background-color: rgba(0, 137, 255, 0.1);
+   }
+   
+   .Support-pagination {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #697077;
+    font-weight: 500;
+   }
+   
+   .Support-pagination-arrow {
+    cursor: pointer;
+    margin: 0 15px;
+   }
+   
+   .Support-prevoius-arrow,
+   .Support-next-arrow {
+    padding: 10px;
+   }
