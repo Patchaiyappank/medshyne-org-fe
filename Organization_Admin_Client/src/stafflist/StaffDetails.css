@@ -1,0 +1,503 @@
+.Studentdetailsmain_card-1 {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 12%;
+  margin-bottom: 10px;
+
+  width: 113%;
+  height: auto !important;
+}
+.error-label {
+  color: red;
+}
+#student-datapicker
+{
+width: 150px !important;
+padding-right: 10px;
+}
+#staffbloodgroup
+{
+margin-left: -110px !important;
+}
+
+#staffaddress{
+  width: 115%;
+}
+.mobile-staff
+{
+  margin-top: -20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0.5px 1.5px 1.6px;
+
+  border:1px solid rgba(0, 0, 0, 0.1);
+  width:106%;
+}
+
+.staff-radio-button
+{
+  display: flex;
+  margin-left: 5px;
+  margin-top: 6px !important;
+}
+.student-main
+{
+
+  height: 100% !important;
+}
+#staff-submit{
+ margin-top: 20px;
+  border-radius: 20px;
+  justify-content: right !important;
+}
+.staff-No-radio-button
+{
+  margin-left: 15px;
+}
+.mobile-control-label
+{
+margin-top: 0px;
+display: flex;
+}
+.StaffdetailState input {
+  box-shadow: rgba(85, 84, 84, 0.1) 1.95px 1.95px 2.6px;
+  font-size: 13px;
+  height:40px;
+  width: 112%;
+  border-radius: 10px;
+  
+}
+
+.Staffdetailsform input {
+  box-shadow: rgba(85, 84, 84, 0.1) 1.95px 1.95px 2.6px;
+  font-size: 13px;
+  height:40px;
+  width: 105%;
+  border-radius: 10px;
+} 
+.Staffdetailsfirst input {
+  box-shadow: rgba(85, 84, 84, 0.1) 1.95px 1.95px 2.6px;
+  font-size: 13px;
+  height:40px;
+  width: 550%;
+  border-radius: 10px;
+}
+.Staffdetailssecond input {
+  box-shadow: rgba(85, 84, 84, 0.1) 1.95px 1.95px 2.6px;
+  font-size: 13px;
+  height:40px;
+   width: 132%;
+  border-radius: 10px;
+}
+.erorpassword{
+  color: rgb(255, 6, 6);
+  margin-left: 5px;
+  font-size: 12px;
+  
+}
+#staffgender{
+  margin-left: 60px;
+
+}
+.StaffdetailsformAddress input{
+  box-shadow: rgba(85, 84, 84, 0.1) 1.95px 1.95px 2.6px;
+  font-size: 13px;
+  height:40px;
+  width: 117%;
+  border-radius: 10px;
+}
+
+.Staffdetailsform textarea {
+  box-shadow: rgba(0, 0, 0, 0.1) 0.5px 1.5px 1.6px;
+  font-size: 14px;
+  border-radius: 10px;
+  width:105%;
+}
+.Staffdetailsformnext textarea{
+  box-shadow: rgba(0, 0, 0, 0.1) 0.5px 1.5px 1.6px;
+  font-size: 14px;
+  border-radius: 10px;
+  width:108%;
+  margin-left: 14px;
+}
+#staffclass{
+  box-shadow: rgba(0, 0, 0, 0.1) 0.5px 1.5px 1.6px;
+  border-radius: 7px;
+}
+#staffdivision{
+  box-shadow: rgba(0, 0, 0, 0.1) 0.5px 1.5px 1.6px;
+  border-radius: 7px; 
+}
+.borderrstaf {
+  box-shadow: rgba(0, 0, 0, 00.1) 0.5px 1.5px 1.6px;
+  border-radius: 10px;
+  border-color:#696868;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  width: 102%;
+}
+.borderrstafff {
+  box-shadow: rgba(0, 0, 0, 00.1) 0.5px 1.5px 1.6px;
+  border-radius: 10px;
+  border-color:#696868;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  width: 104%;
+}
+
+.staffdetailsdepartmentgender select{
+
+  box-shadow: rgba(0, 0, 0, 0.1) 1.95px 1.95px 2.6px;
+  font-size: 14px;
+  width:108%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.form-label {
+  font-size: 14px;
+  color: #21272A;
+  margin-bottom: 0.5rem;
+}
+
+.error-label {
+  color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+
+.staffdetailsdesigantiongender{
+  box-shadow: rgba(0, 0, 0, 0.1) 1.95px 1.95px 2.6px;
+  font-size: 14px;
+  width:111%;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.gender-student
+{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height:30px !important;
+  border-radius: 10px;
+  font-size: 10px;
+  border:rgba(0, 0, 0, 0.15);
+  background-color: #0089FF;
+}
+
+.submit-button {
+  width: 140px;
+  height: 35px;
+  margin-left: 480px;
+  background-color: #0089FF;
+  color: white;
+  position: relative;
+  padding: 5px;
+  border: none;
+  font-size: 12px;
+  border-radius: 10px ;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 28px;
+  width: 20px;
+  height: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  
+  clip: rect(0, 0, 0, 0);
+
+  border: 0;
+}
+
+.form-check-input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.form-check-input[type="radio"] + .form-check-label::before {
+  content: "";
+  font-size: 1.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1.1em;
+  text-align: center;
+  border: 1px solid rgba(0, 137, 255, 1); 
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
+.form-check-input[type="radio"]:checked + .form-check-label::before {
+  content: "\2713"; 
+  background-color: rgba(0, 137, 255, 1);
+  color: white;
+  line-height: 1.2em;
+  
+}
+
+/* .error-uploaddocerror
+{
+  margin-left: 10px;
+  color:red;
+  font-size: 12px;
+  margin-top: -68px;
+  margin-bottom: 65px;
+} */
+
+#staffgender{
+  margin-bottom: 5px;
+}
+
+
+.staffdetails-button-style
+{
+  width: 65px;
+  margin-left: 28%;
+  margin-top: 80px;
+  
+}
+
+/* Add this CSS to your stylesheet or within a <style> tag */
+
+
+
+.staffdetailsform-gender{
+  box-shadow: rgba(85, 84, 84, 0.15) 1.95px 1.95px 2.6px;
+  margin-left: 55px;
+  height: 40px;
+  width:80%;
+  border-radius: 10px;
+  border-color:#696868;
+  border:1px solid rgba(0, 0, 0, 0.1);
+}
+
+.staff-remove{
+  margin-top: -10px;
+}
+.form-label {
+ color:#21272A;
+ font-size: 13px;
+}
+
+.bluebutton{
+  border-radius: 10px;
+  font-size: 8px;
+  margin-bottom: 20px;
+}
+.btn-link {
+  color:black;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn-link:hover {
+  color: black;
+  text-decoration: none;
+
+}
+.uploadd-button{
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+@media screen and (min-width:992px) and (max-width:1150px) {
+  .main_card-1 {
+    margin-left: 100px !important;
+    width: 115% !important;
+      }
+      .submit-button
+      {
+        margin-left: 0px;
+      }
+      .uploadd-button{
+        font-size: 10px;
+      
+      }
+       .staff1-signupimagelinkbutton
+{
+  width: 20px;
+  height: 20px;
+  margin-left: 280px;
+  margin-bottom: -10px;
+
+ }
+}
+
+@media screen  and (min-width:791px) and (max-width:991px) {
+  .main_card-1 {
+    margin-left: 240px !important;
+    
+    width: 95% !important;
+      }
+      .submit-button
+      {
+        margin-left: 0px;
+      }
+      .uploadd-button{
+        font-size: 10px;
+      
+      }
+      .uploadflexsignup{
+        
+        width:50%;
+        
+      }
+
+}
+
+@media screen  and (min-width:791px) and (max-width:891px) {
+  .main_card-1 {
+    margin-left: 220px !important;
+    
+    width: 80% !important;
+      }
+      #upload-button{
+        font-size: 10px;
+      }
+    }
+
+@media screen and (min-width:768px) and (max-width:791px) {
+  .main_card-1 {
+    width: 90% !important;
+    
+      }
+      .submit-button
+      {
+        margin-left: -30px;
+      }
+      .staff-button-style
+      {
+margin-left: 210px !important;
+      }
+      .staff-remove
+      {
+        margin-left: 0px !important;
+      }
+      #upload-button{
+        font-size: 10px;
+      }
+    }
+
+@media screen and (max-width:762px)
+{
+  .submit-button
+  {
+    margin-left:-80px;
+  }
+  .main_card-1 {
+    margin-left:100px !important;
+    
+    width: 116% !important;
+      }
+      .staff-button-style
+      {
+margin-left: 210px !important;
+      }
+      .bluebutton{
+        font-size: 10px;
+      }
+}
+@media screen and (max-width:575px) {
+  .staff-remove
+  {
+    margin-left: 20px !important;
+  }
+}
+
+@media screen and (max-width:790px) {
+  .student-addperson
+  {
+    margin-left: 270px;
+    width: 120% !important;
+  }
+  .bluebutton{
+    font-size: 10px;
+  }
+  .newpass{
+    margin-bottom: 20px;
+   }
+ 
+}
+@media screen  and (min-width:791px) and (max-width:891px) {
+  .student-addperson
+  {
+    margin-left: 270px;
+width: 120% !important;
+  }
+}
+
+@media screen and (max-width:575px) {
+  .student-addperson
+  {
+    margin-left: 0px;
+    width: 70% !important;
+    margin-top: 70px;
+  }
+
+  .student-main
+  {
+    width:170%;
+  }
+  .bluebutton{
+    font-size: 10px;
+  }
+}
+
+.staffdetailsdob{
+  width:170%; /* Adjust the width as needed */
+  box-shadow: rgba(85, 84, 84, 0.1) 1.95px 1.95px 2.6px;
+  font-size: 13px;
+  height:40px;
+  border-radius: 10px;
+}
+div.selected-flag
+  {
+    background-color: white;
+    outline: none;
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 20px !important;
+  }
+.staff-org-phone:focus, .staff-org-phone .form-control:focus {
+
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.staff-dummycls 
+{
+  width: 100%;
+  height: 35px;
+  margin-right: 20px;
+  background-color: white;
+  padding-left: 9px;
+  border-radius: 9px;
+  font-size: 15px;
+  color: rgb(65, 64, 64);
+}
+
+
+.staff-mobilephone {
+  height: 35px;
+  border-radius: 9px;
+  border: none;
+
+}
+
+    .staff-org-phone .form-control{
+      width: 100% !important;
+    }

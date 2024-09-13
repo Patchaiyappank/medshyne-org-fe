@@ -1,0 +1,15 @@
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    .pdf-container
+    {
+width: 200px;
+    }
+}
+
+.pdf-container
+{
+    position: relative; 
+    justify-content: right;
+    width: 260px;
+     margin-left: 410px;
+      margin-top: -123px;
+}

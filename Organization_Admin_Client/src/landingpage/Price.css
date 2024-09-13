@@ -1,0 +1,114 @@
+.plan {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    padding: 50px 80px 50px 80px;
+  }
+  
+  .plan-header {
+    text-align: center;
+  }
+  
+  .plan-header h1 {
+    margin: 0;
+    line-height: 1.5;
+    color: #111E4B;   
+  }
+  
+  .plan-highlight {
+    background: linear-gradient(90deg, #55CBFB 0%, #1D4ED8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  .choose-plan {
+    width: 305px;
+    height: 26px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.4px;
+    margin-left: 525px;
+    color: #191D23;
+    margin-top: 10px;
+}
+  
+  .plan-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .plan-grid-item {
+    background-color: #EAF5FF;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    width: 378px;
+    margin-top: 30px;
+  }
+  
+  .plan-grid-item.selected {
+    background-color: #0089FF;
+    color: white;
+  }
+  .plan-grid-item.selected p{
+    color: white;
+  }
+  .plan-grid-item h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.63px;
+    font-family: 'Inter', sans-serif;
+    text-align: start; /* Align to start */
+}
+
+.plan-grid-item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #64748B;
+    line-height: 19.36px;
+    font-family: 'Inter', sans-serif;
+    text-align: start; /* Align to start */
+}
+.plan-grid-item .price {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 76.5px;
+    font-family: 'Manrope', sans-serif;
+    margin-left: -190px;
+}
+  
+  .plan-grid-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .plan-grid-item li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .plan-grid-item li img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .plan-started-button {
+    background-color: white;
+    color: blue;
+    border: 1px solid #1D4ED8;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 330px;
+    height: 44px;
+  }
+  

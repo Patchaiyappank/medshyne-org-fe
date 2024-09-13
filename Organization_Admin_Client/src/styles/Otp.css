@@ -1,0 +1,164 @@
+.otpscreen-main-container {
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 90px;
+  padding-top: 120px;
+  background-color: #FFFFFF;
+  overflow: fixed;
+}
+.otpscreen-container
+{
+  background-color: #FFFFFF !important;
+  height: 100%;
+}
+
+.otp-input {
+  width: 50px;
+  height: 52px;
+  font-size: 31px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0 5px;
+  border:none !important;
+  outline:none !important;
+  margin-top: -5px;
+  border: 1px solid #ECECEC !important;
+  border-radius: 10px;
+  box-shadow: 0 7px 8px rgba(100, 100, 100, 0.2); /* Shadow at bottom */
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 12px;
+}
+
+.otp-input.error {
+  border: 1px solid #FF0000;
+  background-color: #FFD5D5;
+  color: black;
+  font-weight: 700;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.otpscreen-back-button {
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  background-color: transparent !important;
+  color: #0089FF !important;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 2px solid #0089FF;
+  padding: 5px 10px;
+  width: 7.5%;
+  height:40px;
+}
+
+.otpscreen-back-button:hover
+{
+  cursor: pointer;
+  opacity:60%;
+}
+
+.otpscreen-image-container {
+  width: 100%;
+  display: flex;
+}
+
+.otpscreen-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.verify {
+  padding: 10px 25px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #0089FF;
+  border-radius: 30px;
+  margin-top: 20px;
+  font-weight: 700;
+  height: 43px;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.received-code-message {
+  color: #566F92;
+  font-size: smaller;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.otpscreen-verification-message.success {
+  color: green;
+}
+
+.otpscreen-input {
+  width: 10px;
+  height: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 5px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  }
+.otpscreen-error-background
+{
+  background-color: rgb(236, 178, 178) !important;
+}
+
+.otpscreen-resend-button
+{
+  font-size: 16px;
+  color:#0089FF;
+  background-color: transparent !important;
+  border: none !important;
+  padding-left: 5px;
+}
+
+.otpscreen-heading {
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 8px;
+}
+.verifycode{
+  font-size: 22px;
+}
+
+
+#OTPinputstylee {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  margin-right: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.login {
+  margin-top: -20px;
+  color: #566F92;
+  font-size: smaller;
+}
+
+/* Media Queries for Responsiveness */
+
+@media screen and (max-width: 767px) {
+  .otpscreen-back-button
+  {
+    width: 70px;
+    height: auto;
+  }
+  .otpscreen-image-container
+  {
+    margin-top: 50px;
+  }
+  .otpscreen-main-container
+  {
+    height: 100%;
+  }
+}

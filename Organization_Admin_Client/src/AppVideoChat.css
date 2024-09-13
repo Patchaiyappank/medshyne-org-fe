@@ -1,0 +1,80 @@
+/* 
+.app{
+  overflow: hidden;
+}
+.app-container {
+    display: flex;
+    transition: all 0.3s ease; 
+    overflow: hidden;
+  }
+  
+  .video-container {
+    flex: 1; 
+    background-color: #f0f0f0; 
+    height: 100vh; 
+    transition: flex 0.3s ease; 
+  }
+  
+  .chat-container {
+    display: none; 
+    flex: 0.25; 
+    background-color: #d1e7ff; 
+    height: 100vh; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .show-chat .video-container {
+    flex: 1 1 0%; 
+  }
+  
+  .show-chat .chat-container {
+    display: flex;
+  }
+   */
+
+
+
+
+
+   .app {
+    overflow: hidden;
+  }
+  
+  .app-container {
+    display: flex;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .video-container {
+    flex: 1;
+    background-color: #f0f0f0;
+    height: 100vh;
+    transition: flex 0.3s ease;
+    margin: 10px;
+  }
+  
+  .chat-container {
+    display: none;
+    flex: 0.3; /* 30% width */
+    background-color: #d1e7ff;
+    height: 100vh;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .show-chat .video-container {
+    flex: 1; /* 70% width when chat is visible */
+    position: relative; /* Ensure positioning is relative for correct placement of sub-video */
+  }
+  
+  .show-chat .chat-container {
+    display: flex;
+
+  }
+
+
+  
+ 
+  

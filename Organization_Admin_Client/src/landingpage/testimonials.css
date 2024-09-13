@@ -1,0 +1,135 @@
+/* General styling for the testimonials section */
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  background-image: url('../assets/testbg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 50px 0px;
+}
+
+.testimonials-name {
+  text-align: center;
+  color: #111E4B;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/* Styling for the carousel */
+.testimonials-carousel {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+/* Row styling for testimonials */
+.testimonial-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Individual testimonial card styling */
+.testimonial-card {
+  background-color: #F7F8FD;
+  color: #111E4B;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px; /* Minimum width for responsive layout */
+  max-width: 360px; /* Maximum width for each testimonial */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Hover effects */
+.testimonial-card:hover {
+  background-color: #0089FF;
+  color: #ffffff;
+}
+
+/* Ensure all text inside the card also turns white on hover */
+.testimonial-card:hover h5,
+.testimonial-card:hover p,
+.testimonial-card:hover .founder,
+.testimonial-card:hover img {
+  color: #ffffff !important;
+}
+
+/* Styling for testimonial images */
+.testimonial-card img {
+  width: 40px; /* Reduced width */
+  height: 40px; /* Reduced height */
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* Carousel controls styling */
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel-control {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+/* Default radio button style */
+.carousel-radio {
+  appearance: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #0089FF;
+  border: 2px solid #0089FF;
+  outline: none;
+  transition: transform 0.4s ease;
+}
+
+/* Indicator style for each control */
+.carousel-indicator {
+  width: 15px; /* Default width */
+  height: 8px;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: background-color 0.3s ease, width 0.3s ease;
+  margin-left: -10px;
+  margin-right: 5px;
+}
+
+/* Style for active control to make it appear larger */
+.carousel-control.active .carousel-indicator {
+  width: 80px; /* Increased width when active */
+  background-color: #0089FF;
+  transform: scale(1.2); /* Slightly enlarge the active button */
+}
+
+/* Adjust the active radio button style */
+.carousel-radio:checked {
+  background-color: #0089FF;
+  border-color: #0089FF;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .testimonial-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}

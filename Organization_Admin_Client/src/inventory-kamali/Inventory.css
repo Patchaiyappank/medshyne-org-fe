@@ -1,0 +1,442 @@
+body {
+  background-color: #f1f1f1 !important;
+}
+
+.medicine-inventory-button {
+  display: flex;
+  margin-left: 15px;
+  margin-top: -10px;
+}
+
+.inventory-user {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  initial-letter: 0.5px;
+  box-sizing: content-box;
+  background-color: #F5F5F5;
+  border: #C1C1C1;
+  margin-left: 48px;
+  margin-top: 20px;
+}
+
+
+.inventory-stack {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 30px;
+  line-height: 16px;
+  margin-top: 20px !important;
+  initial-letter: 0.5px;
+
+  border: #C1C1C1;
+}
+
+.inventory-user.active {
+  position: relative;
+  color: #0086ff;
+  background-color: transparent !important;
+  /* Change the text color */
+}
+
+.inventory-user.active::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  bottom: -10px;
+  /* Adjust the distance between text and underline as needed */
+  width: 90%;
+  height: 2px;
+  background-color: #0086ff;
+  /* Same color as text */
+}
+
+.inventory-stack.active {
+  position: relative;
+  color: #0086ff;
+  /* Change the text color */
+  background-color: transparent !important;
+}
+
+.inventory-stack.active::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  bottom: -10px;
+  /* Adjust the distance between text and underline as needed */
+  width: 80%;
+  height: 2px;
+  margin-left: 22px;
+  background-color: #0086ff;
+  /* Same color as text */
+}
+
+.inventory-searchh-bar {
+  display: flex;
+  align-items: center;
+  margin-top: -25px !important;
+  /* Adjust margin as needed */
+  justify-content: right;
+  height: 15px;
+  margin-bottom: 50px !important;
+  margin-right: 30px;
+
+}
+
+.medicine-uparow-container {
+  margin-right: 15px !important;
+}
+
+.inventory-name {
+ padding: 15px;
+ margin-left: 50px;
+}
+
+.inventory-searchh-bar input[type="text"] {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+.inventory-searchh-input {
+  width: 250px;
+  /* Adjust width as needed */
+  height: 29px;
+  /* Adjust height as needed */
+  padding: 5px 10px;
+  /* Adjust padding as needed */
+  border: 3px solid #ccc;
+  /* Add border for better visibility */
+  border-radius: 5px;
+  /* Add border radius for rounded corners */
+  background-image: url('./Icon/search.png');
+  /* Set background image */
+  background-position: 10px center;
+  /* Adjust the position of the background image */
+  background-repeat: no-repeat;
+  /* Ensure the background image is not repeated */
+  padding-left: 30px;
+  /* Ensure space for the icon */
+  background-size: 20px;
+  text-indent: 30px;
+  font-size: 15px;
+  /* Decrease the font size of the search text */
+  color: rgb(150, 143, 143);
+  /* Change the color of the search text */
+}
+
+.inventory-searchh-input::placeholder {
+  font-size: 14px;
+  color: #999;
+}
+
+.inventory-imageee {
+  width: 33px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: #F5F5F5;
+  margin-right: 20px;
+}
+
+.inventory-image {
+  width: 30px;
+  height: 30px;
+}
+
+.inventory-imagee {
+  width: 30px;
+  height: 30px;
+}
+
+
+.inventory-date {
+  margin-right: -100px;
+}
+
+.inventory-user-content {
+  border-radius: 20px; 
+  margin-top: 20px;
+ width: 95%;
+  height: auto;
+  max-height: 80%;
+  min-height: 30%;
+  margin-left: 3%;
+position: relative;
+}
+
+.inventory-table{
+  width: 100%;
+  height: 20px;
+  background-color:white;
+border-radius: 20px;
+position:relative;
+overflow: scroll;
+padding: 20px;
+position: sticky;
+}
+.inventory-head {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 20px;
+}
+
+.inventory-subhead {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+.table-responsive {
+  margin-top: 10px;
+ 
+  margin-left: 30px !important;
+
+}
+
+
+.inventory-date-picker {
+  display: flex;
+}
+
+.used-pagination{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ margin-top: 20px;
+ font-size: 12px;
+ cursor: pointer;
+
+}
+.used-pagination-pages {
+  display: flex;
+ padding: 15px;
+  color: #697077;
+  font-size: 12px;
+  border-radius: 50%;
+  margin-top:-9px;
+  cursor: pointer;
+}
+.used-page.active {
+  background-color: #B2DCFF;
+  color: #697077;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.used-page {
+  cursor: pointer;
+ padding-left: 10px;
+ padding-right: 10px;
+  padding: 5px;
+  border: 50% solid #ccc;
+  font-size: 12px;
+
+}
+.used-prevoius-arrow{
+ 
+  padding-right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.used-next-arrow{
+  padding-left: 10px;
+  font-size: 22px;
+  cursor: pointer;
+
+}
+.used-pagination-page{
+  background-color: #B2DCFF;
+  border-radius: 30px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.used-pagination-arrow{
+  margin-top: 9px;
+}
+.inventory-used-container {
+  width: 100%;
+  height: auto;
+}
+
+.inventoryhead-container {
+  margin-top: 660px;
+  margin-left: 70px;
+  
+}
+
+.inventory-used-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.inventorytableheaddd {
+  border-bottom: 1px solid #dddddd;
+  margin-right: 100px;
+}
+
+/* Style for table cells */
+.inventory-used-container td,
+.inventory-used-container th {
+
+  text-align: left;
+}
+
+/* Style for table header */
+.inventory-used-container th {
+  font-weight: bold;
+ 
+}
+
+.inventory-used-container td:first-child {
+  padding-left: 15px;
+padding-top: 10px;
+padding-bottom: 6px; 
+}
+.inventory-table-row{
+  padding: 20px;
+  border-bottom: 1px solid #dddddd;
+  border-top:none ;
+}
+.inventory-TableRow{
+  text-align: center;
+}
+
+/* Style for alternating row colors */
+
+.inventory-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inventory-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 250px;
+  height: 110px;
+}
+
+.inventory-modal-content p {
+  margin-bottom: 10px;
+  font-size: small;
+  margin-top: -15px;
+}
+
+.inventory-modal-content button {
+  padding: 8px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 15px;
+  width: 115px;
+}
+
+.inventory-modal-content button:hover {
+  background-color: #f0f0f0;
+}
+
+.inventoryhead-container {
+  background-color: #F5F5F5;
+  font-family: Roboto;
+  padding-top: 7px;
+  width: 94%;
+  height: 600px !important;
+
+}
+
+.inventory-in {
+  margin-left: 47px;
+  margin-top: -572px;
+  
+}
+
+@media screen and (max-width:700px) {
+  .inventory-in {
+    font-size: 150%;
+  }
+
+  .inventory-user {
+    font-size: 15px;
+  }
+
+  .inventory-stack {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width:810px) {
+  .inventory-date-picker {
+    display: flex;
+    margin-top: 90px !important;
+
+    margin-left: 150px !important;
+
+  }
+
+  .date-rangeString {
+    margin-top: -5px !important;
+  }
+
+  .inventory-calender {
+    margin-top: 10px !important;
+  }
+
+  .inventory-searchh-input {
+    margin-bottom: 10px;
+
+    width: 200px;
+  }
+
+  .inventory-searchh-bar {
+    margin-top: 150px;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .inventory-imageee {
+    display: block;
+  }
+
+  .inventory-user-content {
+    margin-top: 80px !important;
+  }
+}
+
+@media screen and (max-width:670px) {
+
+  .inventory-used-container td,
+  .inventory-used-container th {
+    font-size: 12px;
+   
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .inventoryhead-container {
+    height: 750px !important;
+  }
+}

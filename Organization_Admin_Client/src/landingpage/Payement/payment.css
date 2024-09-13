@@ -1,0 +1,17 @@
+.prescriptionthh{
+    font-size: 14px;
+    border-bottom-width:0.15rem;
+    border-color: whitesmoke;
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+.prescriptiontdd{
+   font-size: 13px;
+    border-bottom-width:0.1rem;
+    border-style:solid;
+    border-color: whitesmoke;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+}
+
